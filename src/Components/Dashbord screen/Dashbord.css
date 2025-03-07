@@ -1,22 +1,25 @@
+
 .dashbord-container {
+    margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: #dfdddd;
 }
 .dashbord-items {
     display: flex;
     flex-direction: row;
 }
-.logo{
-    width: 13%;
-    background-color: red;
-}
+
+
 .header{
     width: 87%;
 }
-.side-panel{
+.main-container {
     display: flex;
     flex-direction: column;
+    width: 87%;
 }
+
 .main-section-1{
     display: flex;
     flex-direction: row;
@@ -25,14 +28,18 @@
     border-width: 1px;
     border-color: lightgray;
 }
-.main-section-2{
+
+.main-section-2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgray;
+    justify-content: space-around;
 }
+
+.side-panel-closed{
+    background-color: white;
+}
+
+
 .main-section-3{
     display: flex;
     flex-direction: row;
@@ -41,6 +48,13 @@
     border-width: 1px;
     border-color: lightgray;
 }
+
+.main-section-3-text{
+    display: flex;
+    flex-direction: column;
+    padding-right: max(100px, 100px);
+}
+
 .main-section-4{
     display: flex;
     flex-direction: row;
@@ -49,6 +63,7 @@
     border-width: 1px;
     border-color: lightgray;
 }
+
 .main-section-5{
     display: flex;
     flex-direction: row;

@@ -1,0 +1,47 @@
+
+.dashbord-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+}
+.link{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+}
+.downlink{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-items: start;
+    margin: 50px;
+    padding: 5px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #dfdddd;
+    border-radius: 10px;
+    background-image: url('./SideBar_Icons/downLinkBackground.png');
+}
+.downlink p{
+    display: flex;
+    justify-content: start;
+    margin: 20px;
+    color: white;
+}
+
+.downlink button{
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.link_downLink{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+}

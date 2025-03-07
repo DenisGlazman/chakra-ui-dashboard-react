@@ -4,33 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/chakra-ui-dashboard-react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_movies_db/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_movies_db/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_movies_db/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_movies_db/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my_movies_db/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_movies_db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my_movies_db/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_movies_db/src/components/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../my_movies_db/src/components/main.jsx" afterDir="false" />
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="second">
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO/LOGO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO/PURITY UI DASHBOARD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO/logo-creative-tim-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/RTL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/ask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/billing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/downLinkBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/signIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/signUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/tables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers_Icons/Icon (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers_Icons/Icon (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers_Icons/Icon (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers_Icons/Icon (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Background 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Breadcrumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Dashboard_Icons/Icon (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Dashboard_Icons/Icon (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Dashboard_Icons/Icon (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Dashboard_Icons/Icon (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/FooterMenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Image-chakra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/OrdersOverview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Progects_Items.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Projects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/PurityUIDashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/RTL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/SalesOverview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/SecondCard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Sidebar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mainPanelActiveUsers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/newClients.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/toDaysMoney.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/toDaysUsers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/totalSales.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +83,36 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/src/Components/Dashbord screen/SideBar/SideBar_Icons",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.npm start.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons" />
+      <recent name="$PROJECT_DIR$/src/images/SideBar_Icons/LOGO" />
+      <recent name="$PROJECT_DIR$/src/images/ActiveUsers_Icons" />
+      <recent name="$PROJECT_DIR$/src/images/Dashboard_Icons" />
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar" />
+      <recent name="$PROJECT_DIR$/src/images/SideBarIcons/LOGO" />
+      <recent name="$PROJECT_DIR$/src/images/SidePanelIcons" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -104,11 +143,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741243653093</updated>
-      <workItem from="1741243654191" duration="8911000" />
+      <workItem from="1741243654191" duration="51028000" />
     </task>
+    <task id="LOCAL-00001" summary="second">
+      <option name="closed" value="true" />
+      <created>1741256739746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741256739746</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second">
+      <option name="closed" value="true" />
+      <created>1741256976259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741256976259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second" />
+    <option name="LAST_COMMIT_MESSAGE" value="second" />
   </component>
 </project>
