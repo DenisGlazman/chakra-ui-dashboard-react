@@ -9,28 +9,62 @@
     display: flex;
     justify-content: start;
     margin-left: 50px;
+    transition: transform .2s;
 }
+.link button{
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+.link button:hover{
+    background-color: white;
+}
+
+.link:hover{
+
+    background-color: white;
+
+
+}
+.rocket{
+    display: flex;
+    flex-direction: row;
+}
+.rocket1{
+    background-color: white;
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 13px;
+}
+.rocket2{
+    margin-top: 10px;
+    padding-left: 10px;
+    font: bold 12px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .downlink{
     display: flex;
     flex-direction: column;
     justify-content: start;
     justify-items: start;
-    margin: 50px;
+    margin: 25px;
     padding: 5px;
-    border-style: groove;
-    border-width: 2px;
-    border-color: #dfdddd;
-    border-radius: 10px;
     background-image: url('./SideBar_Icons/downLinkBackground.png');
+    background-repeat: no-repeat;
+
 }
 .downlink p{
     display: flex;
-    justify-content: start;
-    margin: 20px;
+    flex-direction: column;
+    align-content: start;
+    flex-wrap: wrap;
+
+    margin: 10px;
     color: white;
 }
 
 .downlink button{
+    width: 75%;
     font-style: normal;
     font-weight: bold;
     color: black;
@@ -39,9 +73,15 @@
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 7px;
+
+
+
+
 }
 .link_downLink{
     display: flex;
     justify-content: start;
-    margin-left: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
 }

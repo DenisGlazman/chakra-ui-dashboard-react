@@ -9,11 +9,10 @@ import OrdersOverview from '../../images/OrdersOverview.png'
 import Projects from '../../images/Projects.png'
 import ActiveUsers from '../../images/ActiveUsers.png'
 import SalesOverview from '../../images/SalesOverview.png'
-import Breadcrumb from '../../images/Breadcrumb.png'
-import Sidebar from '../../images/Sidebar.png'
 import PurityDashboard from '../../images/PurityUIDashboard.png'
 import FooterMenu from '../../images/FooterMenu.png'
 import SideBar from "./SideBar/SideBar";
+import Header from "./Header/Header";
 
 const Dashbord = () => {
     return(
@@ -28,9 +27,7 @@ const Dashbord = () => {
 
             <div className="main-container">
                     <div className="header">
-                        <div className="main-section-1">
-                            <img alt='#' src={Breadcrumb}/>
-                        </div>
+                        <Header/>
                     </div>
                     <div className="main">
                         <div className="main-section-2">

@@ -3,7 +3,7 @@
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    background-color: #dfdddd;
+    background-color: #f8f9fa;
 }
 .dashbord-items {
     display: flex;
@@ -11,9 +11,7 @@
 }
 
 
-.header{
-    width: 87%;
-}
+
 .main-container {
     display: flex;
     flex-direction: column;

@@ -4,54 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="second">
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO/LOGO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO/PURITY UI DASHBOARD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO/logo-creative-tim-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/RTL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/ask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/billing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/downLinkBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/signIn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/signUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/tables.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers_Icons/Icon (5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers_Icons/Icon (6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers_Icons/Icon (7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/ActiveUsers_Icons/Icon (8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Background 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Breadcrumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Dashboard_Icons/Icon (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Dashboard_Icons/Icon (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Dashboard_Icons/Icon (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Dashboard_Icons/Icon (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/FooterMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Image-chakra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/OrdersOverview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Progects_Items.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Projects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/PurityUIDashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/RTL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/SalesOverview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/SecondCard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Sidebar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/mainPanelActiveUsers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/newClients.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/toDaysMoney.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/toDaysUsers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/totalSales.png" afterDir="false" />
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment=" added header jsx">
+      <change afterPath="$PROJECT_DIR$/src/Components/Billing/Billing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Billing/Billing.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/input_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/notification_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/settings_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/rocketSignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/RTL/RTL.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/RTL/RTL.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SignIn/SignIn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SignIn/SignIn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SignUp/SignUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables/Tables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables/Tables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/Helvetica-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/Helvetica-BoldOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/Helvetica-Oblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/Helvetica.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/helvetica-compressed-5871d14b6903a.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/helvetica-light-587ebe5a59211.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/helvetica-rounded-bold-5871d05ead8de.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/sign_in_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +50,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="JSX File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -102,15 +96,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons" />
+      <recent name="$PROJECT_DIR$/src/assets/fonts" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons" />
       <recent name="$PROJECT_DIR$/src/images/SideBar_Icons/LOGO" />
       <recent name="$PROJECT_DIR$/src/images/ActiveUsers_Icons" />
-      <recent name="$PROJECT_DIR$/src/images/Dashboard_Icons" />
-      <recent name="$PROJECT_DIR$/src/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen" />
+      <recent name="$PROJECT_DIR$/src/Components/Header" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar" />
       <recent name="$PROJECT_DIR$/src/images/SideBarIcons/LOGO" />
-      <recent name="$PROJECT_DIR$/src/images/SidePanelIcons" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -143,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741243653093</updated>
-      <workItem from="1741243654191" duration="51028000" />
+      <workItem from="1741243654191" duration="73517000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -161,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741256976259</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sidebar added">
+      <option name="closed" value="true" />
+      <created>1741370230199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741370230199</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +173,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
+    <MESSAGE value="sidebar added" />
+    <MESSAGE value="header jsx added" />
+    <MESSAGE value=" added header jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value=" added header jsx" />
   </component>
 </project>
