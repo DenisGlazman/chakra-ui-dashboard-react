@@ -4,43 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment=" added header jsx">
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing/Billing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing/Billing.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/input_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/notification_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/settings_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/rocketSignUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/RTL/RTL.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/RTL/RTL.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SignIn/SignIn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SignIn/SignIn.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SignUp/SignUp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Tables/Tables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Tables/Tables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/Helvetica-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/Helvetica-BoldOblique.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/Helvetica-Oblique.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/Helvetica.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/helvetica-compressed-5871d14b6903a.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/helvetica-light-587ebe5a59211.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/helvetica-255/helvetica-rounded-bold-5871d05ead8de.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/routes.js" afterDir="false" />
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="refactoring,new jsx elements added">
+      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing/Billing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing/Billing.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/Section1.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section2.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section3.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section4.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO/Vector 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/Authors_Table.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/Authors_table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables screen/Tables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tables screen/Tables.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing/Billing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing/Billing.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/sign_in_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section_4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/RTL/RTL.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/Section1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/RTL/RTL.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SignIn/SignIn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SignIn/SignIn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SignUp/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section_3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Tables/Tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section_2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Tables/Tables.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +49,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JSX File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -77,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/src/Components/Dashbord screen/SideBar/SideBar_Icons",
+    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -95,15 +93,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons" />
-      <recent name="$PROJECT_DIR$/src/assets/fonts" />
-      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons" />
-      <recent name="$PROJECT_DIR$/src/images/SideBar_Icons/LOGO" />
-      <recent name="$PROJECT_DIR$/src/images/ActiveUsers_Icons" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/LOGO" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section_4" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section_3" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section_2" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons" />
       <recent name="$PROJECT_DIR$/src/Components/Header" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar" />
       <recent name="$PROJECT_DIR$/src/images/SideBarIcons/LOGO" />
@@ -139,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741243653093</updated>
-      <workItem from="1741243654191" duration="73517000" />
+      <workItem from="1741243654191" duration="82547000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -165,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741370230199</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" added header jsx">
+      <option name="closed" value="true" />
+      <created>1741469808798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741469808798</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +182,7 @@
     <MESSAGE value="sidebar added" />
     <MESSAGE value="header jsx added" />
     <MESSAGE value=" added header jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value=" added header jsx" />
+    <MESSAGE value="refactoring,new jsx elements added" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring,new jsx elements added" />
   </component>
 </project>

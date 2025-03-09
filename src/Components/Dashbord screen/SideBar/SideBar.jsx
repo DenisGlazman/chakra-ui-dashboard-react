@@ -5,18 +5,17 @@ import tables from './SideBar_Icons/tables.png'
 import billing from './SideBar_Icons/billing.png'
 import RTL from './SideBar_Icons/RTL.png'
 import signin from './SideBar_Icons/signIn.png'
-
 import profile from './SideBar_Icons/profile.png'
 import ask from './SideBar_Icons/ask.png'
 import rocket from './SideBar_Icons/rocketSignUp.png'
+import line from'./SideBar_Icons/LOGO/Vector 6.png'
 
 
 const SideBar = () => {
-
-
     return (
         <div className="side-panel">
             <img alt='logo' src={LOGO}/>
+            <img  alt='logo' src={line}/>
             <div className="dashbord-items">
                 <div className="link"><button><img src={dashboard} alt={'Dashboard'}/></button></div>
                 <div className="link"><button><img src={tables}    alt={'Tables'}/></button></div>

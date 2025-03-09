@@ -6,7 +6,6 @@ import input from './Header_icons/input_icon.png'
 const Header = () => {
     return(
         <header className="header_container">
-
             <div className="left_side">
                 <div className="up">Pages/Dashboard</div>
                 <div className="down">DASHBOARD</div>
@@ -17,7 +16,6 @@ const Header = () => {
                         <img alt='#' src={input}/>
                         <input type='text' placeholder='Type here' />
                     </div>
-
                 </div>
                 <div className="right">
                     <button type='submit'><img alt='#' src={signIn}/></button>
