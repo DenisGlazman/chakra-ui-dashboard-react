@@ -3,12 +3,17 @@ import Dashbord from "../Components/Dashbord screen/Dashbord";
 import Tables from "../Components/Tables screen/Tables";
 import Profile from "../Components/Profile screen/Profile";
 import SignIn from "../Components/Sign In Screen/SignIn";
-import SignUp from "../Components/Sign Up Screen/SignUp";
+import SignUp from "../Components/Sign Up Screen/SignUp.jsx";
+import BillingScreen from "../Components/Billing screen/BillingScreen";
 const router = createBrowserRouter(
     [
         {
             path: "/",
             element: <Dashbord />,
+        },
+        {
+            path: "/billing",
+            element: <BillingScreen />
         },
         {
             path: "/tables",

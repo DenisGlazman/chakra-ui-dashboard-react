@@ -7,13 +7,16 @@ import Section4 from "../Dashbord screen/Main/Section4/Section4";
 const Tables=()=>{
     return(
         <div className="tables_screen">
-            <Header/>
-            <SideBar/>
+            <div className="side-panel-container">
+                <SideBar/>
+            </div>
             <div className="tables_wrapper">
+                <Header/>
                 <AuthorsTable/>
                 <Section4/>
+                <Footer/>
             </div>
-            <Footer/>
+
         </div>
     )
 }

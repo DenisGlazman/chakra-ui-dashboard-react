@@ -1,3 +1,10 @@
 .footer {
     display: flex;
+    justify-content: space-around;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
 }

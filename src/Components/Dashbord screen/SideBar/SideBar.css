@@ -5,19 +5,41 @@
     justify-content: start;
     width: 100%;
 }
-.link{
+.sidebar_link{
     display: flex;
     justify-content: start;
-    margin-left: 50px;
+    align-items: center;
+
     transition: transform .2s;
+    font-style: normal ;
+    font-weight: 500;
+    font-size: 14px;
+
 }
-.link button{
+.sidebar_link button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     border: none;
     border-radius: 10px;
     background-color: #f8f9fa;
+    color: gray;
+    font-weight: bold;
 }
-.link button:hover{
+.sidebar_link button:hover{
     background-color: white;
+    width: 150%;
+    color: black;
+    font-weight: bold;
+
+
+}
+.icon {
+    transition: filter 0.3s ease-in-out;
+}
+.icon:hover{
+     /* Цвет при наведении */
+
 }
 
 .link:hover{
@@ -26,62 +48,10 @@
 
 
 }
-.rocket{
-    display: flex;
-    flex-direction: row;
-}
-.rocket1{
-    background-color: white;
-    margin-left: 10px;
-    padding: 7px;
-    border-radius: 13px;
-}
-.rocket2{
-    margin-top: 10px;
-    padding-left: 10px;
-    font: bold 12px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 
-.downlink{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    justify-items: start;
-    margin: 25px;
-    padding: 5px;
-    background-image: url('./SideBar_Icons/downLinkBackground.png');
-    background-repeat: no-repeat;
-
-}
-.downlink p{
-    display: flex;
-    flex-direction: column;
-    align-content: start;
-    flex-wrap: wrap;
-
-    margin: 10px;
-    color: white;
-}
-
-.downlink button{
-    width: 75%;
-    font-style: normal;
+h3{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
     font-weight: bold;
-    color: black;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 7px;
-
-
-
-
 }
-.link_downLink{
-    display: flex;
-    justify-content: start;
-    margin-left: 5px;
-    margin-top: 5px;
-}
+

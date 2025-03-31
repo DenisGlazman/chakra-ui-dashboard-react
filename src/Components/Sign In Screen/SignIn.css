@@ -1,3 +1,45 @@
 .signIn{
+    width: 100%;
+
+
+}
+.signIn-header{
     display: flex;
+    flex-direction: row;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 50%;
+    justify-self: center;
+
+}
+
+.signIn-main-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.signIn-main-left{
+    width: 50%;
+    border-style: groove;
+    border-width: 1px;
+    justify-items: center;
+    align-content: center;
+}
+.signIn-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-style: groove;
+    border-width: 1px;
+}
+.signIn-main-right{
+    display: flex;
+    justify-self: left;
+    background-image: url("./images/signInBackground.png");
+    background-repeat: no-repeat;
+    width: 862px;
+    height: 872px;
 }

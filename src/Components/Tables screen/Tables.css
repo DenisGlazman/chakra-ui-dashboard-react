@@ -1,3 +1,7 @@
 .tables_screen{
     display: flex;
 }
+.tables_wrapper{
+    display: flex;
+    flex-direction: column;
+}

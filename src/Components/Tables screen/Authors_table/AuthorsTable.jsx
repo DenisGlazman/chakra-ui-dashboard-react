@@ -1,9 +1,9 @@
-import './Authors_table.css'
-const Authors_table = () => {
+import './AuthorsTable.css'
+const AuthorsTable = () => {
     return (
         <div className="authors-table">
             Authors Table
         </div>
     )
 }
-export default Authors_table
+export default AuthorsTable
