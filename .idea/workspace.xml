@@ -4,31 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Postman's moks added">
-      <change afterPath="$PROJECT_DIR$/public/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing Information/Billing_Information.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing Information/Billing_Information.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/BillingScreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/BillingScreen.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/CardDisplay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/CardDisplay.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Invoices.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Invoices.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Payment Method/Payment_Method.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Payment Method/Payment_Method.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Your Transactions/Your_Transaction.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Your Transactions/Your_Transaction.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/images/@ 2021, Made with ❤️ by Creative Tim &amp; Simmmple for a better web.svg" afterDir="false" />
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Local server added">
+      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Avatar 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Avatar 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Avatar 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Avatar 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Avatar 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Person Photo 16.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/icons/Wallet&amp;Back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/icons/newClients.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/icons/rW.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/icons/sales.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/icons/users.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/icons/wallet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/icons/walletB.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/images/background_jpg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/images/chakra.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/CustomBarChart.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/data.js" afterDir="false" />
@@ -37,75 +21,13 @@
       <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/icons/items.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/icons/sales.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/icons/users.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Downlink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Downlink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/BillingWithBackground.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/DashbordWithBack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/ProfileWithBack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/ProfileWithBackReversed.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/RTLwithBack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/SignInWithBack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/SignUpWithBack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/TablesWithBack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/VectorTables.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/billing1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/dash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/default.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/pro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/prof.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/sIn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons/sharp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/Projects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/Projects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/Sign_In_Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/signInBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/SignUpForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/Sign_Up_Form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/images/SignUpBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Billing/Billing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing/Billing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Billing/Billing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing/Billing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/Section1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/Section1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/Section1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/Section1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section_2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section3.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section_3.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section_3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/Authors_Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/AuthorsTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/Authors_table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/AuthorsTable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Tables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Tables.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Tables.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section4.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +41,7 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="JSX File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -151,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/src/Components/Dashbord screen/Main/Section3/icons",
+    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/public/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -169,11 +92,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/icons" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/images" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/icons" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons" />
-      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -226,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741243653093</updated>
       <workItem from="1741243654191" duration="169611000" />
-      <workItem from="1742124894348" duration="63715000" />
+      <workItem from="1742124894348" duration="79059000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -276,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741623612722</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Postman's moks added">
+      <option name="closed" value="true" />
+      <created>1743427134411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743427134411</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +222,7 @@
     <MESSAGE value="routing for side bar added" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="Postman's moks added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Postman's moks added" />
+    <MESSAGE value="Local server added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Local server added" />
   </component>
 </project>

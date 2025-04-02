@@ -1,0 +1,28 @@
+{
+  "projects":[
+  {
+    "id": 1,
+    "company": "Chakra Soft UI Version",
+    "icon": "xd",
+    "members": ["/images/Avatar 1.png", "/images/Avatar 2.png", "/images/Avatar 3.png", "/images/Avatar 4.png", "/images/Avatar 5.png"],
+    "budget": 14000,
+    "completion": 60
+  },
+  {
+    "id": 2,
+    "company": "Add Progress Track",
+    "icon": "google",
+    "members": ["/images/Avatar 1.png", "/images/Avatar 2.png"],
+    "budget": 3000,
+    "completion": 10
+  },
+  {
+    "id": 3,
+    "company": "Fix Platform Errors",
+    "icon": "slack",
+    "members": ["/images/Avatar 3.png", "/images/Avatar 4.png"],
+    "budget": null,
+    "completion": 100
+  }
+]}
+
