@@ -1,3 +1,40 @@
-.section_4{
+
+.main-section-4{
+    width: 100%;
+}
+.main_section{
     display: flex;
 }
+.main-panel-left{
+    width: 70%;
+}
+.main-panel-right{
+    margin-left: 10%;
+}
+.p-4{
+    margin-left: 5%;
+}
+.bg-gray-100{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.bg-gray-100 .p-2{
+    margin-right: 10%;
+}
+.bg-gray-100 .p-2:first-child{
+    margin-right: 80%;
+
+}
+img{
+    margin-right: 10px;
+}
+.main-panel-right{
+    width: 30%;
+}
+.text-center .p-2:nth-child(2){
+    text-align:left;
+    color: red;
+    margin-left: auto;}

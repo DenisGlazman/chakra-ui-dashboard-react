@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import './Project.css'
 const Project = () => {
     const [projects, setProjects] = useState([]);
 
@@ -16,30 +16,32 @@ const Project = () => {
             <table className="w-full border-collapse border border-gray-300">
                 <thead>
                 <tr className="bg-gray-100">
-                    <th className="p-2 border">Company</th>
-                    <th className="p-2 border">Members</th>
-                    <th className="p-2 border">Budget</th>
-                    <th className="p-2 border">Completion</th>
+                    <th className="companies">Companies</th>
+                    <th className="members">Members</th>
+                    <th className="budget">Budget</th>
+                    <th className="completion">Completion</th>
                 </tr>
                 </thead>
                 <tbody>
                 {projects.map((project) => (
                     <tr key={project.id} className="text-center">
-                        <td className="p-2 border">{project.company}</td>
-                        <td className="p-2 border">
+                        <td className="p-2 border"><img src={project.company.icon} alt='icon'/>{project.company.name}</td>
+
+                        <td className="p-2 members">
                             {project.members.map((img, index) => (
                                 <img
                                     key={index}
                                     src={img}
                                     alt="Member"
-                                    className="w-6 h-6 rounded-full inline-block mx-1"
+                                    className="member-avatar"
                                 />
                             ))}
                         </td>
-                        <td className="p-2 border">
+
+                        <td className="value">
                             {project.budget ? `$${project.budget.toLocaleString()}` : "Not set"}
                         </td>
-                        <td className="p-2 border">
+                        <td className="percentage">
                             <div className="w-full bg-gray-200 h-2 rounded">
                                 <div
                                     className="bg-blue-500 h-2 rounded"
@@ -47,6 +49,12 @@ const Project = () => {
                                 ></div>
                             </div>
                             {project.completion}%
+                        </td>
+
+                            <td className="progress">
+                                <progress value={project.completion} max="100" className="w-full"></progress>
+
+
                         </td>
                     </tr>
                 ))}

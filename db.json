@@ -2,27 +2,140 @@
   "projects":[
   {
     "id": 1,
-    "company": "Chakra Soft UI Version",
-    "icon": "xd",
+    "company": {"name":"Chakra Soft UI Version",
+                "icon":"/Projects icons/Adobe_XD_CC.svg"},
     "members": ["/images/Avatar 1.png", "/images/Avatar 2.png", "/images/Avatar 3.png", "/images/Avatar 4.png", "/images/Avatar 5.png"],
     "budget": 14000,
     "completion": 60
   },
   {
     "id": 2,
-    "company": "Add Progress Track",
-    "icon": "google",
+    "company":{"name": "Add Progress Track",
+    "icon": "/Projects icons/Atlassian.svg"},
     "members": ["/images/Avatar 1.png", "/images/Avatar 2.png"],
     "budget": 3000,
     "completion": 10
   },
   {
     "id": 3,
-    "company": "Fix Platform Errors",
-    "icon": "slack",
+    "company":{"name":"Fix Platform Errors",
+    "icon": "/Projects icons/Slack.svg"},
     "members": ["/images/Avatar 3.png", "/images/Avatar 4.png"],
     "budget": null,
     "completion": 100
+  },
+    {
+      "id": 4,
+      "company":{"name": "Launch our Mobile App",
+      "icon": "/Projects icons/Spotify.svg"},
+      "members": ["/images/Avatar 1.png", "/images/Avatar 2.png", "/images/Avatar 3.png", "/images/Avatar 4.png", "/images/Avatar 5.png"],
+      "budget": 14000,
+      "completion": 100
+    },
+    {
+      "id": 5,
+      "company":{"name": "Add the New Pricing Page",
+      "icon": "/Projects icons/Jira.svg"},
+      "members": ["/images/Avatar 1.png", "/images/Avatar 2.png"],
+      "budget": 3000,
+      "completion": 25
+    },
+    {
+      "id": 6,
+      "company":{"name": "Redesign New Online Shop",
+      "icon": "/Projects icons/Invision.svg"},
+      "members": ["/images/Avatar 3.png", "/images/Avatar 4.png"],
+      "budget": null,
+      "completion": 40
+    }
+],
+
+"orders": [
+  { "icon": "/Orders Overview Icons/Design changes.svg",
+    "title": "$2400, Design changes",
+    "date": "22 DEC 7:20 PM"
+  },
+  { "icon": "/Orders Overview Icons/CSS.svg",
+    "title": "New order #4219423",
+    "date": "21 DEC 11:21 PM"
+  },
+  { "icon": "/Orders Overview Icons/Basket.svg",
+    "title": "Server Payments for April",
+    "date": "21 DEC 9:28 PM"
+  },
+  { "icon": "/Orders Overview Icons/Card.svg",
+    "title": "New card added for order #3210145",
+    "date": "20 DEC 3:52 PM"
+  },
+  { "icon": "/Orders Overview Icons/Dropbox.svg",
+    "title": "Unlock packages for Development",
+    "date": "19 DEC 11:35 PM"
+  },
+  { "icon": "/Projects icons/Adobe_XD_CC.svg",
+    "title": "New order #9851258",
+    "date": "18 DEC 4:41 PM"
   }
-]}
+]
+,
+"authors":[
+{
+"avatar": "/Authors table photos/Image.jpg",
+"name": "Esthera Jackson",
+"email": "esthera@simmmp1e.com",
+"role": "Manager",
+"department": "Organization",
+"status": "Online",
+"employed": "14/06/21"
+},
+{
+"avatar": "/Authors table photos/Image1.jpg",
+"name": "Alexa Liras",
+"email": "alexa@simmmp1e.com",
+"role": "Programmer",
+"department": "Developer",
+"status": "Offline",
+"employed": "14/06/21"
+},
+{
+"avatar": "/Authors table photos/Image2.jpg",
+"name": "Laurent Michael",
+"email": "laurent@simmmp1e.com",
+"role": "Executive",
+"department": "Projects",
+"status": "Online",
+"employed": "14/06/21"
+}
+,
+  {
+    "avatar": "/Authors table photos/Image3.jpg",
+    "name": "Laurent Michael",
+    "email": "laurent@simmmp1e.com",
+    "role": "Executive",
+    "department": "Projects",
+    "status": "Online",
+    "employed": "14/06/21"
+  }
+,
+  {
+    "avatar": "/Authors table photos/Image4.jpg",
+    "name": "Laurent Michael",
+    "email": "laurent@simmmp1e.com",
+    "role": "Executive",
+    "department": "Projects",
+    "status": "Online",
+    "employed": "14/06/21"
+  }
+,
+  {
+    "avatar": "/Authors table photos/Image5.jpg",
+    "name": "Laurent Michael",
+    "email": "laurent@simmmp1e.com",
+    "role": "Executive",
+    "department": "Projects",
+    "status": "Online",
+    "employed": "14/06/21"
+  }
+]
+}
+
 

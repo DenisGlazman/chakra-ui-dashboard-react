@@ -3,7 +3,7 @@ import Header from "../Dashbord screen/Header/Header";
 import SideBar from "../Dashbord screen/SideBar/SideBar";
 import Footer from "../Dashbord screen/Footer/Footer";
 import AuthorsTable from "./Authors_table/AuthorsTable";
-import Section4 from "../Dashbord screen/Main/Section4/Section4";
+import Project from "../Dashbord screen/Main/Section4/Projects/Project.jsx";
 const Tables=()=>{
     return(
         <div className="tables_screen">
@@ -13,7 +13,7 @@ const Tables=()=>{
             <div className="tables_wrapper">
                 <Header/>
                 <AuthorsTable/>
-                <Section4/>
+                <Project/>
                 <Footer/>
             </div>
 
