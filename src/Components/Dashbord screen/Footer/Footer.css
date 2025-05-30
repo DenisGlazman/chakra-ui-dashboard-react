@@ -1,10 +1,14 @@
 .footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
-.footer-links a{
+.footer-links {
     text-decoration: none;
     color: gray;
     margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }

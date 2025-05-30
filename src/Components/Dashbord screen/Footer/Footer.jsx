@@ -5,12 +5,12 @@ const Footer = () => {
     return(
 
         <div className="footer">
-            <div className="copyright"><img alt='#' src={img}/></div>
+            <div className="copyright"><img alt='img' src={img}/></div>
             <div className="footer-links">
-                <a href="#" >Creative Tim</a>
-                <a href="#" >Simmmple</a>
-                <a href="#" >Blog</a>
-                <a href="#" >License</a>
+                <p>Creative Tim</p>
+                <p>Simmmple</p>
+                <p>Blog</p>
+                <p>License</p>
             </div>
         </div>
 

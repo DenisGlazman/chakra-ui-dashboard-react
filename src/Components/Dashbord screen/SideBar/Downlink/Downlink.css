@@ -10,8 +10,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 25px;
-    border: none;
-    border-radius: 10px;
     padding-bottom: 20px;
     padding-right: 7px;
 }
