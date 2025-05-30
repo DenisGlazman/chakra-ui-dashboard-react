@@ -1,0 +1,14 @@
+.entry-fields-container{
+    display: flex;
+    flex-direction: row;
+}
+.entry-fields-title{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+.entry-fields-title input{
+    border: none;
+}

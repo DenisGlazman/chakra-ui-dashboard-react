@@ -1,65 +1,55 @@
 .downlink-container {
 
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    padding-bottom: 10px;
-    background-image: url('../SideBar_Icons/downLinkBackground.png');
+
+}
+.downlink {
+    background-image: url('../SideBar_Icons/BackgroundDownlink.svg');
     background-repeat: no-repeat;
     border: none;
     border-radius: 10px;
-}
-.downlink {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    margin: 5px;
+    margin-left: 25px;
     border: none;
     border-radius: 10px;
     padding-bottom: 20px;
     padding-right: 7px;
 }
 
-.icon_ask{
-    display: flex;
-    margin-bottom: 10px;
+
+img{
+    margin-left: 15px;
 }
-.text{
-    color: white;
-    justify-items: left;
-}
-.text h3, .text h4 {
+h3, h4 {
     margin: 5px 0; /* Одинаковые отступы сверху и снизу */
+    justify-self: flex-start;
+    align-self: center;
+    color: white;
 }
-.text h3{
+h3{
     font-family: 'Helvetica', sans-serif;
     font-size: 14px;
     font-weight: bold;
+    margin-left: 15px;
 }
-.text h4{
+ h4{
     font-family: 'Helvetica', sans-serif;
     font-size: 12px;
     font-weight: normal;
-
-
+     margin-left: 15px;
 }
-
-
-
-.button{
-    align-content: center;
-    justify-content: center;
-
-
-}
-.button button{
-    border: none;
+.documentation{
+    justify-self: center;
+    align-self: center;
+    margin-left: 30px;
+    padding: 15px;
     border-radius: 10px;
-    padding: 10px;
-    margin: 30px;
-
-
-
+    border-style: none;
 }
+
+
+
+
+
 
 

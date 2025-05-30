@@ -1,4 +1,8 @@
 
+.side-panel img{
+    padding-top: 20px;
+
+}
 .dashbord-items{
     display: flex;
     flex-direction: column;

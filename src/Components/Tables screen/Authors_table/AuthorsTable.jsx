@@ -1,65 +1,70 @@
 import React, { useEffect, useState } from "react";
+import "./AuthorsTable.css";
 
 const AuthorsTable = () => {
     const [authors, setAuthors] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:5001/authors") // Укажи свой URL
-            .then((res) => res.json())
-            .then((data) => setAuthors(data))
-            .catch((err) => console.error("Error fetching authors:", err));
+        // Имитируем загрузку данных с сервера
+        const fetchAuthors = async () => {
+            setLoading(true);
+            try {
+                const response = await fetch("http://localhost:5001/authors"); // ⚠️ Подставь актуальный эндпоинт
+                const data = await response.json();
+                setAuthors(data);
+            } catch (error) {
+                console.error("Ошибка загрузки авторов:", error);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchAuthors();
     }, []);
 
     return (
-        <div className="bg-white shadow-md rounded-lg p-6 w-full">
-            <h2 className="text-xl font-bold mb-4">Authors Table</h2>
-            <table className="w-full text-left">
-                <thead>
-                <tr className="text-gray-500 uppercase text-sm border-b">
-                    <th className="py-2">Author</th>
-                    <th>Function</th>
-                    <th>Status</th>
-                    <th>Employed</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody>
-                {authors.map((author, index) => (
-                    <tr key={index} className="border-b">
-                        <td className="flex items-center gap-3 py-4">
-                            <img
-                                src={author.avatar}
-                                alt={author.name}
-                                className="w-10 h-10 rounded-full object-cover"
-                            />
-                            <div>
-                                <p className="font-semibold">{author.name}</p>
-                                <p className="text-sm text-gray-500">{author.email}</p>
-                            </div>
-                        </td>
-                        <td>
-                            <p className="font-semibold">{author.role}</p>
-                            <p className="text-sm text-gray-500">{author.department}</p>
-                        </td>
-                        <td>
-                <span
-                    className={`px-3 py-1 rounded-full text-xs font-medium ${
-                        author.status === "Online"
-                            ? "bg-green-100 text-green-600"
-                            : "bg-gray-200 text-gray-600"
-                    }`}
-                >
-                  {author.status}
-                </span>
-                        </td>
-                        <td className="text-sm text-gray-600">{author.employed}</td>
-                        <td>
-                            <button className="text-blue-500 hover:underline text-sm">Edit</button>
-                        </td>
+        <div className="authors-table">
+            <h2>Authors Table</h2>
+            {loading ? (
+                <p>Загрузка...</p>
+            ) : (
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Author</th>
+                        <th>Function</th>
+                        <th>Status</th>
+                        <th>Employed</th>
+                        <th></th>
                     </tr>
-                ))}
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                    {authors.map(({ id, name, email, role, department, status, employedDate, avatar }) => (
+                        <tr key={id}>
+                            <td>
+                                <div className="author-info">
+                                    <img src={avatar} alt={name} />
+                                    <div>
+                                        <div className="name">{name}</div>
+                                        <div className="email">{email}</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div className="role">{role}</div>
+                                <div className="department">{department}</div>
+                            </td>
+                            <td>
+                                <span className={`status ${status.toLowerCase()}`}>{status}</span>
+                            </td>
+                            <td>{employedDate}</td>
+                            <td><button className="edit-btn">Edit</button></td>
+                        </tr>
+                    ))}
+                    </tbody>
+                </table>
+            )}
         </div>
     );
 };

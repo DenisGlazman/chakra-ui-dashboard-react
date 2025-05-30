@@ -8,7 +8,7 @@ import BillingScreen from "../Components/Billing screen/BillingScreen";
 const router = createBrowserRouter(
     [
         {
-            path: "/",
+            path: "",
             element: <Dashbord />,
         },
         {

@@ -1,3 +1,13 @@
 .card-display-container{
     display: flex;
+    width: 50%;
+    padding: 10px;
+}
+.card-background-container{
+    margin-top: 20px;
+}
+.incomes{
+    display: flex;
+    flex-direction: row;
+
 }

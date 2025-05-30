@@ -1,3 +1,68 @@
-.invoices-container{
+.invoices-container {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 30%;
+
+}
+.view_all{
+    background-color: white;
+    color: #4fd1c5;
+    border: 1px solid #4fd1c5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 110px;
+    font-weight: bold;
+}
+.invoices-date{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.invoices-number,.invoices-amount{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+
+}
+.invoices-header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.invoice-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.invoices-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.invoice-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.invoice-item:last-child {
+    border-bottom: none;
+}
+
+.invoice-date {
+    font-weight: 500;
+    color: #333;
+}
+
+.invoice-amount {
+    font-weight: 600;
+    color: #000;
 }

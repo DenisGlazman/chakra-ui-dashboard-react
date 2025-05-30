@@ -1,22 +1,185 @@
-.companies{
-    margin-right: 70%;
+/* Корневой контейнер */
+.p-6-bg-white-rounded-lg-shadow {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
-.members{
-    margin-right: 10%;
+/* Заголовок таблицы */
+.text-xl {
+    font-size: 1.25rem;
 }
-.member-avatar{
-    margin-right: -10px;
+
+.font-bold {
+    font-weight: 700;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+/* Таблица */
+.w-full-text-left {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+/* Заголовок таблицы (thead) */
+.text-xs-uppercase-text-gray-500-border-b th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #6b7280; /* Tailwind gray-500 */
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e5e7eb; /* Tailwind gray-200 */
+}
+
+/* Тело таблицы (tbody) */
+tbody tr {
+    transition: background-color 0.2s;
+}
+
+tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+.border-b {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Ячейки */
+td {
+    vertical-align: middle;
+}
+
+/* Отступы по вертикали */
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+/* Иконка компании */
+td .flex {
+    display: flex;
+    align-items: center;
+}
+
+.gap-3 {
+    gap: 0.75rem;
+}
+
+/* Аватары */
+.flex-space-x-2 {
+    display: flex;
+
+}
+.flex-space-x-2 img{
+    margin-left: -10px;
+}
+
+.w-6 {
+    width: 1.5rem;
+}
+
+.h-6 {
+    height: 1.5rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.border-white {
+
+}
 
 
+/* Бюджет */
+.text-sm {
+    font-size: 0.875rem;
+}
 
+.text-gray-700 {
+    color: #374151;
 }
-.budget{
-    margin-right: 10%;
+
+/* Полоса прогресса */
+.flex-1 {
+    flex: 1;
 }
-.value{
-    margin-left: 10%;
+
+.h-1\\5 {
+    height: 0.375rem;
 }
-.completion{
-    margin-right: 10%;
+
+.bg-gray-200 {
+    background-color: #e5e7eb;
+}
+
+.bg-teal-500 {
+    background-color: #14b8a6;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+.progress-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.progress-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    white-space: nowrap;
+    min-width: 40px;
+}
+
+.progress-bar {
+
+    height: 6px;
+    background-color: #e5e7eb; /* gray-200 */
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #14b8a6; /* teal-500 */
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+}
+p{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+p span{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+}
+p img{
+    justify-content: center;
+    align-content: center;
+}
+.full-width {
+    width: 150%;
+}
+
+.half-width {
+    width: 100%;
+    display: inline-block;
+
 }

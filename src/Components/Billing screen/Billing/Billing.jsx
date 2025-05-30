@@ -1,28 +1,18 @@
 import './Billing.css'
-import PAYMENT_METHOD from "../Payment Method/PAYMENT_METHOD.jsx";
-import CardDisplay from "../Card Display/CardDisplay";
 import Invoices from "../Invoices/Invoices";
-import BILLING_INFORMATION from "../Billing Information/BILLING_INFORMATION.jsx";
-import YOUR_TRANSACTION from "../Your Transactions/YOUR_TRANSACTION.jsx";
+import Card from "../Card Display/Card/Card.jsx";
+import YourTransaction from "../Your Transactions/YourTransaction.jsx";
+import BillingInformation from "../Billing Information/Billing_Information.jsx";
 const Billing=()=>{
     return (
         <div className="billing-container">
-            <div className="display_container">
-                <div className="card&cash">
-                    <div className="card-body">
-                        <CardDisplay/>
-                    </div>
-                    <div className="payments">
-                        <PAYMENT_METHOD/>
-                    </div>
-                </div>
-                <div className="invoices">
-                    <Invoices/>
-                </div>
+            <div className="billing-upper-wrapper">
+                <Card/>
+                <Invoices/>
             </div>
-            <div className="billing-information-container">
-                <BILLING_INFORMATION/>
-                <YOUR_TRANSACTION/>
+            <div className="billing-lower-wrapper">
+                <BillingInformation/>
+                <YourTransaction/>
             </div>
         </div>
     )

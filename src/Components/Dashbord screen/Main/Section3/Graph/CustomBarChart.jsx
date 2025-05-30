@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
+import './CustomBarChart.css'
+
 
 const CustomBarChart = () => {
     const [data, setData] = useState([]); // Начальное значение — пустой массив
@@ -42,20 +44,21 @@ const CustomBarChart = () => {
 
 
     return (
-        <div style={{ background: "#121633", padding: "20px", borderRadius: "15px", width: "50%" }}>
+        <div className="custom-bar-chat" >
             {data.length > 0 ? (
-                <ResponsiveContainer width="100%" height={400}>
+                <ResponsiveContainer >
                     <BarChart data={data} barGap={15}>
                         <CartesianGrid strokeDasharray="3 3" stroke="#333" />
                         <XAxis dataKey="name" stroke="white" />
                         <YAxis stroke="white" />
                         <Tooltip />
-                        <Bar dataKey="value" fill="white" radius={[20, 20, 0, 0]} barSize={30} animationDuration={500} />
+                        <Bar dataKey="value" fill="white" radius={[20, 20, 0, 0]} barSize={10} animationDuration={500} />
                     </BarChart>
                 </ResponsiveContainer>
             ) : (
                 <p style={{ color: "white" }}>Загрузка данных...</p>
             )}
+
         </div>
     );
 };

@@ -1,4 +1,15 @@
 .section_3{
-    display: flex;
+display: flex;
+    padding-top: 20px;
 
+}
+.left_side_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    width: 40%;
+    margin-right: 20px;
 }

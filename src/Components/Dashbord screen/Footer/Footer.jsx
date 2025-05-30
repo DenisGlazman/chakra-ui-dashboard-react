@@ -1,7 +1,9 @@
 import img from './images/@ 2021, Made with ❤️ by Creative Tim & Simmmple for a better web.svg'
 import './Footer.css'
+
 const Footer = () => {
     return(
+
         <div className="footer">
             <div className="copyright"><img alt='#' src={img}/></div>
             <div className="footer-links">
@@ -11,6 +13,7 @@ const Footer = () => {
                 <a href="#" >License</a>
             </div>
         </div>
+
 
     )
 }

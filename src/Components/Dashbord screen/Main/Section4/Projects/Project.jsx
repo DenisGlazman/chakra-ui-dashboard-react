@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import './Project.css'
+import {useLocation} from "react-router-dom";
 const Project = () => {
+    const location = useLocation();
+
+    const isFullWidth = location.pathname === '/tables'; // например, только на этой странице
+
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
@@ -11,56 +16,53 @@ const Project = () => {
     }, []);
 
     return (
-        <div className="p-4">
+        <div className={isFullWidth ? 'full-width' : 'half-width'}>
+        <div className="p-6-bg-white-rounded-lg-shadow" >
             <h2 className="text-xl font-bold mb-4">Projects</h2>
-            <table className="w-full border-collapse border border-gray-300">
-                <thead>
-                <tr className="bg-gray-100">
-                    <th className="companies">Companies</th>
-                    <th className="members">Members</th>
-                    <th className="budget">Budget</th>
-                    <th className="completion">Completion</th>
-                </tr>
-                </thead>
-                <tbody>
-                {projects.map((project) => (
-                    <tr key={project.id} className="text-center">
-                        <td className="p-2 border"><img src={project.company.icon} alt='icon'/>{project.company.name}</td>
-
-                        <td className="p-2 members">
-                            {project.members.map((img, index) => (
-                                <img
-                                    key={index}
-                                    src={img}
-                                    alt="Member"
-                                    className="member-avatar"
-                                />
-                            ))}
-                        </td>
-
-                        <td className="value">
-                            {project.budget ? `$${project.budget.toLocaleString()}` : "Not set"}
-                        </td>
-                        <td className="percentage">
-                            <div className="w-full bg-gray-200 h-2 rounded">
-                                <div
-                                    className="bg-blue-500 h-2 rounded"
-                                    style={{ width: `${project.completion}%` }}
-                                ></div>
-                            </div>
-                            {project.completion}%
-                        </td>
-
-                            <td className="progress">
-                                <progress value={project.completion} max="100" className="w-full"></progress>
-
-
-                        </td>
+            <p><img alt='circle' src='/Projects icons/circle.svg'/>30 done <span>this month</span></p>
+            <div className="overflow-x-auto" >
+                <table className="w-full-text-left" >
+                    <thead>
+                    <tr className="text-xs-uppercase-text-gray-500-border-b">
+                        <th className="py-2">Companies</th>
+                        <th className="py-2">Members</th>
+                        <th className="py-2">Budget</th>
+                        <th className="py-2">Completion</th>
                     </tr>
-                ))}
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                    {projects.map((project) => (
+                        <tr key={project.id} className="border-b">
+                            <td className="py-3 flex items-center gap-3">
+                                <img src={project.company.icon} alt="icon" className="w-5 h-5" />
+                                <span>{project.company.name}</span>
+                            </td>
+                            <td className="py-3">
+                                <div className="flex-space-x-2">
+                                    {project.members.map((avatar, i) => (
+                                        <img key={i} src={avatar} alt="Member" className="w-6 h-6 rounded-full border-2 border-white" />
+                                    ))}
+                                </div>
+                            </td>
+                            <td className="py-3 text-sm text-gray-700">
+                                {project.budget ? `$${project.budget.toLocaleString()}` : "Not set"}
+                            </td>
+                            <td className="py-3">
+                                <div className="progress-wrapper">
+                                    <span className="progress-label">{project.completion}%</span>
+                                    <div className="progress-bar">
+                                        <div className="progress-fill" style={{ width: `${project.completion}%` }}></div>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                    ))}
+                    </tbody>
+                </table>
+            </div>
         </div>
+    </div>
     );
 };
 
