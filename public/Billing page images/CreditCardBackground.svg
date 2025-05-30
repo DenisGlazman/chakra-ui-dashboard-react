@@ -1,7 +1,7 @@
 <svg width="463" height="242" viewBox="0 0 463 242" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect x="1" y="1" width="461.5" height="240" rx="15" fill="url(#paint0_linear_46_140)"/>
 <mask id="mask0_46_140" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="463" height="242">
-<foreignObject x="0" y="0" width="0" height="0"></foreignObject><rect  x="0.75" y="0.75" width="462" height="240.5" rx="15.25" fill="url(#paint1_linear_46_140)" stroke="url(#paint2_radial_46_140)" stroke-width="0.5"/>
+<rect  x="0.75" y="0.75" width="462" height="240.5" rx="15.25" fill="url(#paint1_linear_46_140)" stroke="url(#paint2_radial_46_140)" stroke-width="0.5"/>
 </mask>
 <g mask="url(#mask0_46_140)">
 <path d="M149.083 -343.161C374.55 -292.197 508.23 -96.7401 447.867 93.2991C387.503 283.338 155.881 396.225 -69.5856 345.262C-295.053 294.298 -428.733 98.8411 -368.37 -91.1981C-308.006 -281.237 -76.3843 -394.124 149.083 -343.161Z" stroke="white" stroke-opacity="0.16"/>
