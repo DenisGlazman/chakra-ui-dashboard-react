@@ -5,7 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Billing and Tables screens have been filled">
-      <change beforePath="$PROJECT_DIR$/public/Billing page images/CreditCardBackground.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing page images/CreditCardBackground.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Profile page images/ProfileHeaderBackground.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Profile page images/minimalism.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Profile page images/modern.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Profile page images/scandinavian.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/NewProjectCard/NewProjectCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/NewProjectCard/NewProjectCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/LogIn/LoginForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/LogIn/LoginForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign In.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign Up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/ProfileInformation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/Sign_In_Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/Sign_In_Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +59,7 @@
         <option value="TypeScript File" />
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="JSX File" />
         <option value="CSS File" />
       </list>
@@ -41,41 +83,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Section3.jsx.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.SideBar.jsx.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.SignUp.jsx.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.data.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/public/Billing page images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.App.js.executor": "Run",
+    "Node.js.Section3.jsx.executor": "Run",
+    "Node.js.SideBar.jsx.executor": "Run",
+    "Node.js.SignUp.jsx.executor": "Run",
+    "Node.js.data.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/src/Components/Sign In Screen/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm start.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Sign In Screen/images" />
+      <recent name="$PROJECT_DIR$/public/Profile page images" />
       <recent name="$PROJECT_DIR$/public/Billing page images" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons" />
       <recent name="$PROJECT_DIR$/public/Projects icons" />
-      <recent name="$PROJECT_DIR$/public/Section 1 icons" />
-      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Salary" />
@@ -133,7 +176,7 @@
       <workItem from="1747325638846" duration="71000" />
       <workItem from="1747325721051" duration="17706000" />
       <workItem from="1747904712870" duration="63803000" />
-      <workItem from="1748458524656" duration="20203000" />
+      <workItem from="1748458524656" duration="40353000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -223,14 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748602325437</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Billing and Tables screens have been filled">
+      <option name="closed" value="true" />
+      <created>1748602510160</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1748602510160</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second" />
     <MESSAGE value="sidebar added" />
     <MESSAGE value="header jsx added" />
     <MESSAGE value=" added header jsx" />
@@ -240,6 +290,7 @@
     <MESSAGE value="Postman's moks added" />
     <MESSAGE value="Local server added" />
     <MESSAGE value="icons" />
+    <MESSAGE value="second" />
     <MESSAGE value="Billing and Tables screens have been filled" />
     <option name="LAST_COMMIT_MESSAGE" value="Billing and Tables screens have been filled" />
   </component>

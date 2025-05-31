@@ -1,0 +1,38 @@
+.signIn-header{
+    padding: 20px;
+    justify-self: center;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 400px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+.links{
+    color: black;
+    background: transparent;
+    gap: 10px;
+
+}
+.download{
+    color: white;
+    background: black;
+    border-radius: 15px;
+    max-width: 150px;
+    max-height: 35px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 50px;
+    padding-inline: 30px;
+
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

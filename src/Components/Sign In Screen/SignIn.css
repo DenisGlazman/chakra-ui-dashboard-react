@@ -1,7 +1,8 @@
 .signIn{
     width: 100%;
-
-
+}
+h2{
+    color: #4fd1c5;
 }
 .signIn-header{
     display: flex;
@@ -26,10 +27,13 @@
     justify-items: center;
     align-content: center;
 }
+h4{
+    color: black;
+}
 .signIn-form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 50%;
     border-style: groove;
@@ -42,4 +46,15 @@
     background-repeat: no-repeat;
     width: 862px;
     height: 872px;
+}
+input{
+    width: 50%;
+}
+.signIn-btn{
+    background-color: #4fd1c5;
+}
+.links{
+    background-color: clear;
+    border: none;
+
 }

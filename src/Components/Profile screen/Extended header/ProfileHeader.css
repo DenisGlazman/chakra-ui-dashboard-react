@@ -1,3 +1,7 @@
 .profile-header{
-    display: flex;
+    background-image: url("/public/Profile page images/ProfileHeaderBackground.svg");
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
 }

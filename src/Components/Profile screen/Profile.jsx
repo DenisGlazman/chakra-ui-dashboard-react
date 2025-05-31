@@ -3,7 +3,7 @@ import SideBar from "../Dashbord screen/SideBar/SideBar";
 import Footer from "../Dashbord screen/Footer/Footer";
 import ProfileHeader from "./Extended header/ProfileHeader";
 import ProfileMain from "./Profile main/ProfileMain";
-import Projects from "./Profile projects/Projects";
+import Projects from "./Profile projects/ProfileProjects.jsx";
 
 const Profile = () => {
     return (
