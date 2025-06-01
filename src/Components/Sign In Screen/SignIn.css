@@ -1,9 +1,7 @@
 .signIn{
     width: 100%;
 }
-h2{
-    color: #4fd1c5;
-}
+
 .signIn-header{
     display: flex;
     flex-direction: row;

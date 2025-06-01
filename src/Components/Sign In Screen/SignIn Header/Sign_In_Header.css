@@ -12,12 +12,43 @@
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
 }
-.links{
-    color: black;
+.signin-style {
+    background: rgba(255, 255, 255, 0.7);
+    top: 50px;
+    left: 50px;
+}
+
+/* Стиль для /signup */
+.signup-style {
     background: transparent;
-    gap: 10px;
+    border: none;
+    margin-top: 0;
+    color: white;
+
+    }
+.logo{
+    background: transparent;
+    gap: 50px;
+    border: none;
+    margin-left: 25px;
+    color: red;
 
 }
+.links{
+    background: transparent;
+    gap: 50px;
+    border: none;
+    margin-left: 25px;
+    color: black;
+
+}.signup-style .links {
+     color: white;
+     }
+
+
+
+
+
 .download{
     color: white;
     background: black;
@@ -31,8 +62,36 @@
     padding-inline: 30px;
 
 }
+
+
+/* Разные стили кнопки "Free Download" по страницам */
+.signin-style .download {
+    background-color: black;
+    color: white;
+}
+
+.signup-style .download {
+    background-color: white;
+    color: black;
+    border: none;
+}
 .navigation{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo{
+    fill: white; /* работает! */
+    color: white;
+}
+.sign-up-form{
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    z-index: 10;
 }

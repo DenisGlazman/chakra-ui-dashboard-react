@@ -15,11 +15,25 @@
 }
 .signUp-lower{
     display: flex;
+    background-color: white;
 }
 .welcome{
     display: flex;
     flex-direction: column;
+    margin-top: 150px;
     width: 20%;
     justify-self: center;
     color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.welcome h1,h4{
+    color: white;
+}
+
+.SignInHeader{
+    background:none;
+}
+.RegisterForm{
+    margin-left: 400px;
 }

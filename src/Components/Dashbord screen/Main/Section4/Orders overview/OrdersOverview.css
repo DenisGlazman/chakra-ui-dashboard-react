@@ -1,52 +1,64 @@
 .orders-container {
-    position: relative;
-    padding-left: 40px;
-
-
-    background-color: white;
-    border-radius: 0.5rem;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    margin: auto;
 }
 
-/* Вертикальная линия */
+.timeline {
+    margin-top: 20px;
+    position: relative;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icon-container {
+    position: relative;
+    margin-right: 16px;
+    min-height: 60px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    position: relative;
+}
+
 .vertical-line {
     position: absolute;
-    top: 24px;          /* отступ сверху от первой иконки */
-    bottom: 24px;       /* отступ снизу от последней иконки */
-    left: 20px;         /* выравнивание под центром иконок */
+    top: 28px;
+    left: 26px;
     width: 2px;
-    background-color: #e5e7eb; /* светло-серая */
+    height: calc(100% - 12px);
+    background-color: #e0e0e0;
+    color: black;
     z-index: 0;
 }
 
-/* Один блок заказа */
-.order-item {
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 16px;
-    z-index: 1; /* выше линии */
+.content {
+    flex: 1;
 }
 
-.order-icon{
-    display: flex;
-
-}
-
-.order-icon img {
-    width: 16px;
-    height: 16px;
-}
-.order-content{
-    margin-top: 20px;
-}
-
-/* Контент */
-.order-content .order-title {
+.order-title {
     font-weight: 600;
+    margin: 0;
 }
 
-.order-content .order-date {
-    font-size: 0.875rem;
-    color: #6b7280; /* серый текст */
+.order-date {
+    font-size: 0.85rem;
+    color: #888;
+    margin: 4px 0 0;
+}
+
+.text-green {
+    color: #4caf50;
+    font-weight: 500;
 }

@@ -8,7 +8,7 @@ import LoginForm from "./SignIn Header/LogIn/LoginForm.jsx";
 const SignIn = () => {
     return(
         <div className='signIn'>
-            SIGN IN SCREEN
+
             <div className='signIn-container'>
                 <SignInHeader/>
                 <div className='signIn-main-container'>

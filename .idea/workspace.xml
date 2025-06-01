@@ -4,49 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Billing and Tables screens have been filled">
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/ProfileHeaderBackground.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/minimalism.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/modern.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/scandinavian.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/NewProjectCard/NewProjectCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/NewProjectCard/NewProjectCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/LogIn/LoginForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/LogIn/LoginForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Dashboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign In.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign Up.svg" afterDir="false" />
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Sign In screen has been filled">
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/RegisterForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/RegisterForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/images/Apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/images/Facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/images/Google.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/ProfileInformation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/LogIn/LoginForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/LogIn/LoginForm.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/Sign_In_Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/Sign_In_Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Dashboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Dashboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Profile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign In.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign In.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign Up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign Up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/SignUpForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/Sign_Up_Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,10 +95,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Components/Sign In Screen/images" />
+      <recent name="$PROJECT_DIR$/src/Components/Sign Up Screen/images" />
       <recent name="$PROJECT_DIR$/public/Profile page images" />
       <recent name="$PROJECT_DIR$/public/Billing page images" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons" />
-      <recent name="$PROJECT_DIR$/public/Projects icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Salary" />
@@ -176,7 +156,7 @@
       <workItem from="1747325638846" duration="71000" />
       <workItem from="1747325721051" duration="17706000" />
       <workItem from="1747904712870" duration="63803000" />
-      <workItem from="1748458524656" duration="40353000" />
+      <workItem from="1748458524656" duration="58242000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -274,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748602510160</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Sign In screen has been filled">
+      <option name="closed" value="true" />
+      <created>1748709826230</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748709826230</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Sign In screen has been filled">
+      <option name="closed" value="true" />
+      <created>1748710100362</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748710100362</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +288,7 @@
     <MESSAGE value="icons" />
     <MESSAGE value="second" />
     <MESSAGE value="Billing and Tables screens have been filled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Billing and Tables screens have been filled" />
+    <MESSAGE value="Sign In screen has been filled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign In screen has been filled" />
   </component>
 </project>
