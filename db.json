@@ -369,21 +369,21 @@
       "id": 1,
       "title": "Modern",
       "description": "As Uber works through a huge amount of internal management turmoil.",
-      "image": "/Profile page images/modern.svg",
+      "image": "/Profile page images/modern.png",
       "members": ["/images/Avatar 1.png", "/images/Avatar 2.png", "/images/Avatar 3.png", "/images/Avatar 4.png", "/images/Avatar 5.png"]
     },
     {
       "id": 2,
       "title": "Scandinavian",
       "description": "Music is something that every person has his or her own specific opinion about.",
-      "image": "/Profile page images/scandinavian.svg",
+      "image": "/Profile page images/scandinavian.png",
       "members": ["/images/Avatar 1.png", "/images/Avatar 2.png", "/images/Avatar 3.png", "/images/Avatar 4.png", "/images/Avatar 5.png"]
     },
     {
       "id": 3,
       "title": "Minimalist",
       "description": "Different people have different taste, and various types of music.",
-      "image": "/Profile page images/minimalism.svg",
+      "image": "/Profile page images/minimalism.png",
       "members": ["/images/Avatar 1.png", "/images/Avatar 2.png", "/images/Avatar 3.png", "/images/Avatar 4.png", "/images/Avatar 5.png"]
     }
   ]

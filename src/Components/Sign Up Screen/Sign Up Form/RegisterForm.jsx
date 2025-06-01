@@ -11,9 +11,10 @@ const RegisterForm = () => {
                 <h2 className="form-title">Register with</h2>
 
                 <div className="social-buttons">
-                    <button>F</button>
-                    <button></button>
-                    <button>G</button>
+                    <img src={Facebook} alt='facebook'/>
+                    <img src={Apple} alt='apple'/>
+                    <img src={Google} alt='google'/>
+
                 </div>
 
                 <div className="divider">

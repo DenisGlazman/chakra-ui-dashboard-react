@@ -4,29 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Sign In screen has been filled">
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/RegisterForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/RegisterForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/images/Apple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/images/Facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/images/Google.svg" afterDir="false" />
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Sign Up screen has been filled">
+      <change afterPath="$PROJECT_DIR$/public/Profile page images/minimalism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Profile page images/modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Profile page images/scandinavian.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/LogIn/LoginForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/LogIn/LoginForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/Sign_In_Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/Sign_In_Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Dashboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Dashboard.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Profile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign In.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign In.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign Up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/images/Sign Up.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/SignUpForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/Sign_Up_Form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/RegisterForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/RegisterForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/RegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/Sign Up Form/RegisterForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +62,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/src/Components/Sign In Screen/images",
+    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/public/Profile page images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -94,9 +80,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Profile page images" />
       <recent name="$PROJECT_DIR$/src/Components/Sign In Screen/images" />
       <recent name="$PROJECT_DIR$/src/Components/Sign Up Screen/images" />
-      <recent name="$PROJECT_DIR$/public/Profile page images" />
       <recent name="$PROJECT_DIR$/public/Billing page images" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar_Icons" />
     </key>
@@ -156,7 +142,7 @@
       <workItem from="1747325638846" duration="71000" />
       <workItem from="1747325721051" duration="17706000" />
       <workItem from="1747904712870" duration="63803000" />
-      <workItem from="1748458524656" duration="58242000" />
+      <workItem from="1748458524656" duration="61584000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -270,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748710100362</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Sign Up screen has been filled">
+      <option name="closed" value="true" />
+      <created>1748787464699</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748787464699</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +283,7 @@
     <MESSAGE value="second" />
     <MESSAGE value="Billing and Tables screens have been filled" />
     <MESSAGE value="Sign In screen has been filled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sign In screen has been filled" />
+    <MESSAGE value="Sign Up screen has been filled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign Up screen has been filled" />
   </component>
 </project>

@@ -59,7 +59,8 @@
     font-weight: bold;
     font-size: 10px;
     margin-left: 50px;
-    padding-inline: 30px;
+    padding-inline: 20px;
+    white-space: nowrap;
 
 }
 
