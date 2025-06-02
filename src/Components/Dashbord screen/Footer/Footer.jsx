@@ -1,4 +1,4 @@
-import img from './images/@ 2021, Made with ❤️ by Creative Tim & Simmmple for a better web.svg'
+
 import './Footer.css'
 
 const Footer = () => {

@@ -6,11 +6,11 @@ import  {ReactComponent as SignIn} from'./Header_icons/Sign In.svg'
 import input from './Header_icons/input_icon.png'
 import Breadcrumbs from "../../Breadcrumbs/Breadcrumbs.jsx";
 
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 
 
 const Header = () => {
-    const navigate = useNavigate()
+
     const location = useLocation();
 
     const isNotProfile = location.pathname !== '/profile';

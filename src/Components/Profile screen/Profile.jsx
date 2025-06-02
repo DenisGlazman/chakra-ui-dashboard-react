@@ -4,7 +4,7 @@ import Footer from "../Dashbord screen/Footer/Footer";
 import ProfileHeader from "./Extended header/ProfileHeader";
 import ProfileMain from "./Profile main/ProfileMain";
 import Projects from "./Profile projects/ProfileProjects.jsx";
-import ProfileElement from "./Profile main/Profile element/ProfileElement.jsx";
+
 
 const Profile = () => {
     return (
