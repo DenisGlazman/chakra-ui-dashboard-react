@@ -58,7 +58,7 @@ const AuthorsTable = () => {
                             <td>
                                 <span className={`status ${status.toLowerCase()}`}>{status}</span>
                             </td>
-                            <td>{employedDate}</td>
+                            <td><div className="employed">{employedDate}</div></td>
                             <td><button className="edit-btn">Edit</button></td>
                         </tr>
                     ))}

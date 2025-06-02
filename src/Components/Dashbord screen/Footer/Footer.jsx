@@ -5,7 +5,7 @@ const Footer = () => {
     return(
 
         <div className="footer">
-            <div className="copyright"><img alt='img' src={img}/></div>
+            <div className="copyright">@ 2021, Made with ❤️ by <span>Creative Tim</span> & <span>Simmmple</span> for a better web </div>
             <div className="footer-links">
                 <p>Creative Tim</p>
                 <p>Simmmple</p>

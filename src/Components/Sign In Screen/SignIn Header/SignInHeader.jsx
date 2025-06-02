@@ -3,7 +3,6 @@ import {ReactComponent as Dashbord} from '../images/Dashboard.svg'
 import {ReactComponent as Profile} from '../images/Profile.svg'
 import {ReactComponent as SignIn} from '../images/Sign In.svg'
 import {ReactComponent as SignUp} from '../images/Sign Up.svg'
-
 import './Sign_In_Header.css'
 
 import {useLocation, useNavigate} from "react-router-dom";

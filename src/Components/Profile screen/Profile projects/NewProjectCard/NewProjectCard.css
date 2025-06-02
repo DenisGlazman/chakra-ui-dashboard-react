@@ -1,0 +1,10 @@
+.new-project-card{
+    max-width: 370px;
+    width: 23%;
+
+}
+.new-project-card p{
+    font-size: 18px;
+    font-weight: bold;
+
+}

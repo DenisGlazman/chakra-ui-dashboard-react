@@ -1,0 +1,70 @@
+.profile-element-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+    justify-self: center;
+    margin-top: 8%;
+    background-color: transparent; /* фон будет через ::before */
+    overflow: hidden; /* чтобы псевдоэлемент не вылезал за рамки */
+    backdrop-filter: blur(10px);
+}
+
+.profile-element-container::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* белый с прозрачностью */
+    border-radius: 10px;
+    z-index: -1;
+}
+.profile-element-avatar{
+    display: flex;
+    flex-direction: row;
+}
+.profile-element-avatar-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-element-avatar-name .name{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.profile-element-avatar-name .mail{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+}
+.profile-element-tabs{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    align-items: center;
+}
+.profile-element-tabs img{
+    max-width: 134px;
+    max-height: 35px;
+    margin-right: 20px;
+}
+.profile-element-tabs button{
+    border: none;
+    background-color: transparent;
+}
+.profile-element-tabs button:hover{
+    border-radius: 15px;
+    border-width: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Тень снизу */
+    transition: box-shadow 0.2s ease;
+    background-color: white;
+}
+

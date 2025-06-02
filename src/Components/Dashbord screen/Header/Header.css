@@ -4,6 +4,8 @@
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: 1598px;
+    max-height: 300px;
 
 }
 .left_side{
@@ -16,15 +18,19 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    align-items: center;
+    justify-content: flex-end;
 }
 .right {
     display: flex;
     flex-direction: row;
+    background-color: transparent;
 }
 .right button{
     border: none;
-    background-color: #f8f9fa;
+    background-color: transparent;
+
+
 }
 .left_wrapper{
     display: flex;
@@ -35,9 +41,30 @@
 .left_wrapper input{
     border: none;
     margin-right: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 .down{
     font-family: 'Helvetica', sans-serif;
     font-size: 14px;
     font-weight: bold;
 }
+
+.profile-style .person{
+    color: white;
+}
+.profile-style .setting{
+    color: white;
+}
+.profile-style .notification{
+    color: white;
+}
+
+.not-profile-style .person,.setting,.notification{
+    color: black;
+}
+
+
+

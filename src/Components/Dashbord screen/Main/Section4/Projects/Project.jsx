@@ -34,7 +34,7 @@ const Project = () => {
                     {projects.map((project) => (
                         <tr key={project.id} className="border-b">
                             <td className="py-3 flex items-center gap-3">
-                                <img src={project.company.icon} alt="icon" className="w-5 h-5" />
+                                <img src={project.company.icon} alt="icon" className="pr_img"/>
                                 <span>{project.company.name}</span>
                             </td>
                             <td className="py-3">

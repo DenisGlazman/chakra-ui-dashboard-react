@@ -1,14 +1,28 @@
 import './Header.css'
-import notification from './Header_icons/notification_icon.png'
-import settings from './Header_icons/settings_icon.png'
-import signIn from'./Header_icons/sign_in_icon.png'
+import {ReactComponent as Notification} from './Header_icons/notification.svg'
+import {ReactComponent as Settings} from './Header_icons/sharp.svg'
+import {ReactComponent as Person} from './Header_icons/person.svg'
+import  {ReactComponent as SignIn} from'./Header_icons/Sign In.svg'
 import input from './Header_icons/input_icon.png'
 import Breadcrumbs from "../../Breadcrumbs/Breadcrumbs.jsx";
 
+import {useLocation, useNavigate} from "react-router-dom";
+
+
 const Header = () => {
+    const navigate = useNavigate()
+    const location = useLocation();
+
+    const isNotProfile = location.pathname !== '/profile';
+    const isProfile = location.pathname === '/profile';
+
+    const headerClass = `header_container ${isProfile ? 'profile-style' : isNotProfile ? 'not-profile-style' : ''}`;
+
     return(
 
-        <header className="header_container">
+        <div className={headerClass}>
+
+
             <div className="left_side">
                 <Breadcrumbs />
                 <div className="up"></div>
@@ -22,12 +36,16 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="right">
-                    <button type='submit'><img alt='#' src={signIn}/></button>
-                    <button type='reset'><img alt='#' src={settings}/></button>
-                    <button type='reset'><img alt='#' src={notification}/></button>
-                </div>
-            </div>
-        </header>
+                    <button className='person' type='submit'><Person/><SignIn/></button>
+                    <button className='setting' type='reset'><Settings/></button>
+                    <button className='notification' type='reset'><Notification/></button>
+                </div></div>
+
+
+
+
+        </div>
+
 
     )
 }

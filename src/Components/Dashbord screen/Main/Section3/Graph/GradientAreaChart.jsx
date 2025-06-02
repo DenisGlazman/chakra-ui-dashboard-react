@@ -27,7 +27,7 @@ const GradientAreaChart = () => {
     return (
         <div className='grad-area'>
             <h3>Sales overview</h3>
-            <p style={{ color: "green" }}>(+5) more in 2021</p>
+            <p style={{ color: "green" }}>(+5) more <span style={{ color: "black" }}> in 2021</span></p>
             <ResponsiveContainer width="100%" height={400}>
                 <AreaChart data={data}>
                     <defs>

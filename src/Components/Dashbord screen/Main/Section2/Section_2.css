@@ -11,46 +11,27 @@
     justify-content: space-between;
     background-color: white;
     border-radius: 15px;
-
+    max-width: 922px;
+    max-height: 290px;
+    width: 57%;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 .text-left{
     display: flex;
     flex-direction: column;
     align-items: start;
-
     margin-left: 15px;
     margin-top: 10px;
-
-}
-.text-left a{
-    justify-self: end;
-    margin-top: 150px;
-    color: black;
-    text-decoration: none;
-    font-family:'Helvetica', sans-serif;
-    font-weight: bold;
-    font-size: 10px;
-
 }
 .chakra-background{
     display: flex;
     margin-right: 10px;
 }
-
 .chakra-background img{
-    display: flex;
-    align-items: end;
-    width: 100%;
-    height: fit-content;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 20px;
 }
-
-
-
-
-
 .first{
     display: flex;
     align-items: start;
@@ -58,16 +39,15 @@
     font-size: 12px;
     font-weight: bold;
     color: rgba(160, 174, 192, 1);
-
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 .second{
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     font-weight: bold;
-
+    padding-bottom: 10px;
 }
-
-
 .third{
     display: flex;
     font-family: 'Helvetica', sans-serif;
@@ -75,8 +55,15 @@
     color: rgba(160, 174, 192, 1);
     align-items: start;
     width: 60%;
-
-
+}
+.text-left a{
+    justify-self: end;
+    margin-top: 120px;
+    color: black;
+    text-decoration: none;
+    font-family:'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
 }
 
 
@@ -84,7 +71,11 @@
     display: flex;
     background-color: white;
     border-radius: 15px;
-    width: 45%;
+    max-width: 654px;
+    max-height: 290px;
+    width: 40%;
+    margin-left: 6px;
+    margin-right: 6px;
 
 }
 .text-right{
@@ -97,21 +88,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     align-items: start;
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .text-1{
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;

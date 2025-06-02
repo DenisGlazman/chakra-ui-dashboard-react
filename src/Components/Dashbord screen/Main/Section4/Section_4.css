@@ -3,7 +3,8 @@
     padding-bottom: 30px;
 }
 .main-panel-left{
-    width: 70%;
+    width: 66%;
+    max-width: 1057px;
     border-radius: 15px;
     padding-right: 20px;
 }
@@ -16,7 +17,8 @@
 }
 .main-panel-right{
     display: flex;
-    width: 30%;
+    width: 32%;
+    max-width: 519px;
 }
 .orders-container{
     width: 80%;

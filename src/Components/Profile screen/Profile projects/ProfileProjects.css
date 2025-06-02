@@ -7,12 +7,17 @@
 
 .projects-header h3 {
     margin: 0;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .projects-header p {
     color: #8392ab;
     margin-bottom: 20px;
+    font-size: 14px;
+
+    margin-top: 10px;
+    font-weight: normal;
 }
 
 .projects-grid {

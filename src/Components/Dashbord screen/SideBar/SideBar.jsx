@@ -53,7 +53,7 @@ const SideBar = () => {
                     <img src={RTLwithBack} alt={'RTL'}/>RTL
                 </button></div>
 
-                <h3>ACCOUNT PAGES</h3>
+                <span className='acc'>ACCOUNT PAGES</span>
                 <div className="sidebar_link"><button onClick={goToProfile}>
                     <img   src={ProfileWithBack} alt={'profile'}/>Profile
                 </button></div>

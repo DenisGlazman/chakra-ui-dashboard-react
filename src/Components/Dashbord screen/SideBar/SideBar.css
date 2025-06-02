@@ -1,6 +1,11 @@
 
+.side-panel{
+    width: 13%;
+    max-width: 246px;
+}
 .side-panel img{
     padding-top: 20px;
+
 
 }
 .dashbord-items{
@@ -8,6 +13,12 @@
     flex-direction: column;
     justify-content: start;
     width: 100%;
+}
+.acc{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px;
 }
 .sidebar_link{
     display: flex;

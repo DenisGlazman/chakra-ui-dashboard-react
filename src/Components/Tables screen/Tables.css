@@ -1,9 +1,4 @@
-.tables_screen{
-    display: flex;
-    flex-direction: row;
-    background-color: #f8f9fa;
+Project{
+    width: 50%;
 
-}
-.tables_wrapper{
-    width: 80%;
 }

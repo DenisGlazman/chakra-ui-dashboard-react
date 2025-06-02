@@ -16,14 +16,14 @@ const DashboardStats = () => {
                 <div className="card"
                     key={index}
                 >
-                    <div>
-                        <h3 >{item.title}</h3>
-                        <h2 >{item.value}
-                            <span className="subtitle" style={{ color: item.changeColor, }}>{item.change }</span>
-                        </h2>
+                    <div className='card-content'>
+                        <span className='title'>{item.title}</span>
+                        <span className='amount' >{item.value}
+                            <span className="changes" style={{ color: item.changeColor, }}>{item.change }</span>
+                        </span>
                     </div>
                     <div>
-                        <img src={item.icon} alt="icon" style={{ width: "100%" }} />
+                        <img src={item.icon} alt="icon" style={{ width: '45px' }} />
                     </div>
                 </div>
             ))}

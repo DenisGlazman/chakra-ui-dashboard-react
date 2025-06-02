@@ -136,30 +136,31 @@ td .flex {
 .progress-wrapper {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 10px;
 }
 
 .progress-label {
-    font-size: 0.875rem;
-    font-weight: 500;
-    white-space: nowrap;
-    min-width: 40px;
+    min-width: 30px;
+    font-size: 14px;
+    color: #555;
 }
 
 .progress-bar {
-
-    height: 6px;
-    background-color: #e5e7eb; /* gray-200 */
+    flex: 1;
+    height: 8px;
+    background-color: #e0e0e0;
     border-radius: 4px;
     overflow: hidden;
+    position: relative;
 }
 
 .progress-fill {
     height: 100%;
-    background-color: #14b8a6; /* teal-500 */
-    border-radius: 4px;
-    transition: width 0.3s ease-in-out;
+    background-color: #14b8a6; /* зелёный цвет заполнения */
+    transition: width 0.3s ease;
+    border-radius: 4px 0 0 4px;
 }
+
 p{
     font-family: 'Helvetica', sans-serif;
     font-size: 12px;
@@ -173,6 +174,7 @@ p span{
 p img{
     justify-content: center;
     align-content: center;
+
 }
 .full-width {
     width: 150%;
@@ -182,4 +184,7 @@ p img{
     width: 100%;
     display: inline-block;
 
+}
+.pr_img{
+    margin-right: 10px;
 }
