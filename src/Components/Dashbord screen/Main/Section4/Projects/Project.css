@@ -177,7 +177,7 @@ p img{
 
 }
 .full-width {
-    width: 150%;
+    width: 99%;
 }
 
 .half-width {
@@ -188,3 +188,23 @@ p img{
 .pr_img{
     margin-right: 10px;
 }
+.action-button {
+    display: flex;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+    justify-self: center;
+
+}
+.action-button:hover {
+    color: #000;
+}
+.py-2:last-child {
+    display: flex;
+    border-bottom:#e5e7eb 1px solid;
+    padding-bottom: 26px;
+    color: transparent;
+}
+

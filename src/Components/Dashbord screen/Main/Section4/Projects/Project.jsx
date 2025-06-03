@@ -28,13 +28,14 @@ const Project = () => {
                         <th className="py-2">Members</th>
                         <th className="py-2">Budget</th>
                         <th className="py-2">Completion</th>
+                        {isFullWidth && <th className="py-2 text-center">Options</th>}
                     </tr>
                     </thead>
                     <tbody>
                     {projects.map((project) => (
                         <tr key={project.id} className="border-b">
                             <td className="py-3 flex items-center gap-3">
-                                <img src={project.company.icon} alt="icon" className="pr_img"/>
+                                <img src={project.company.icon} alt="icon" className="pr_img" />
                                 <span>{project.company.name}</span>
                             </td>
                             <td className="py-3">
@@ -55,10 +56,15 @@ const Project = () => {
                                     </div>
                                 </div>
                             </td>
-
+                            {isFullWidth && (
+                                <td className="py-3 text-center">
+                                    <button className="action-button">⋮</button>
+                                </td>
+                            )}
                         </tr>
                     ))}
                     </tbody>
+
                 </table>
             </div>
         </div>

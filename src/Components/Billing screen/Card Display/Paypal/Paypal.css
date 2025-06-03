@@ -1,5 +1,6 @@
 .paypal-container{
-    width: 200px;
+    width: 240px;
+    max-width: 240px;
     aspect-ratio: 1 / 1;
     background-color:white;
     display: flex;

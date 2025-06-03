@@ -4,57 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Sign Up screen has been filled">
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/MainImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/MainImageIcon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/overview_tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/projects_tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Profile page images/teams_tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Breadcrumbs/Breadcrumbs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/Sign In.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/notification.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/person.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons/sharp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile element/ProfileElement.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile element/ProfileElement.jsx" afterDir="false" />
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/CreditCard/CreditCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/CreditCard/CreditCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Profile page images/minimalism.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Profile page images/modern.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Profile page images/scandinavian.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Breadcrumbs/Breadcrumbs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Breadcrumbs/Breadcrumbs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/CreditCardBackground.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing page images/CreditCardBackground.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Billing Information/Billing_Information.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing Information/Billing_Information.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/CardDisplay.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/CardDisplay.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/Paypal/Paypal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/Paypal/Paypal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/Salary/Salary.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/Salary/Salary.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Invoices.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Invoices.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Payment Method/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Payment Method/Button/Button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section_2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section_4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section_4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Downlink.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Downlink.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/ProfileInformation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/ProfileInformation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/NewProjectCard/NewProjectCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/NewProjectCard/NewProjectCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign In Screen/SignIn Header/SignInHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/AuthorsTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/AuthorsTable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/AuthorsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/AuthorsTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Tables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Tables.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Tables.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +93,11 @@
       <recent name="$PROJECT_DIR$/public/Billing page images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Billing screen/Billing page images" />
       <recent name="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Salary" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users" />
       <recent name="$PROJECT_DIR$/public/images/Orders Overview Icons" />
-      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -184,7 +148,7 @@
       <workItem from="1747325638846" duration="71000" />
       <workItem from="1747325721051" duration="17706000" />
       <workItem from="1747904712870" duration="63803000" />
-      <workItem from="1748458524656" duration="101426000" />
+      <workItem from="1748458524656" duration="114602000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -314,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748792752256</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1748892411644</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748892411644</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1748892623312</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1748892623312</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +314,7 @@
     <MESSAGE value="Billing and Tables screens have been filled" />
     <MESSAGE value="Sign In screen has been filled" />
     <MESSAGE value="Sign Up screen has been filled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sign Up screen has been filled" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
 </project>

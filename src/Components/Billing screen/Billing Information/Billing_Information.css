@@ -7,7 +7,9 @@
     width: 60%;
     margin: 20px;
 }
-.billing-list{
+.billing-actions{
+    display: flex;
+    align-items: flex-start;
 
 }
 .billing-title {

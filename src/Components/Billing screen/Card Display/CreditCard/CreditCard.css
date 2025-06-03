@@ -1,0 +1,87 @@
+.credit-card {
+    position: relative;
+    width: 420px;
+    height: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+    color: #fff;
+    padding: 24px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../../Billing page images/CreditCardBackground.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.brand {
+    font-size: 18px;
+    margin-right: 340px;
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* MasterCard логотип */
+.card-logo {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 48px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-logo .circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.card-logo .red {
+    background-color: #eb001b;
+    left: 0;
+}
+
+.card-logo .yellow {
+    background-color: #f79e1b;
+    right: 0;
+
+}
+
+.card-number {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+.card-info {
+    display: flex;
+    gap: 60px;
+    font-size: 14px;
+}
+
+.card-info .label {
+    display: block;
+    color: #cfcfcf;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+.card-info .value {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
