@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chakra-ui-dashboard-react/static/css/main.775ec346.css",
-    "main.js": "/chakra-ui-dashboard-react/static/js/main.453fffa8.js",
+    "main.css": "/chakra-ui-dashboard-react/static/css/main.0ba4f528.css",
+    "main.js": "/chakra-ui-dashboard-react/static/js/main.00c2f89e.js",
     "static/media/CreditCardBackground.svg": "/chakra-ui-dashboard-react/static/media/CreditCardBackground.c0b5c88e8adf36f73fcd.svg",
     "static/media/SignUpBackground.png": "/chakra-ui-dashboard-react/static/media/SignUpBackground.9528305b434f6c3be8a0.png",
     "static/media/signInBackground.png": "/chakra-ui-dashboard-react/static/media/signInBackground.d1fb542c6f03e5ce5704.png",
@@ -29,11 +29,11 @@
     "static/media/BackgroundDownlink.svg": "/chakra-ui-dashboard-react/static/media/BackgroundDownlink.1423e514384627412eef.svg",
     "static/media/Facebook.svg": "/chakra-ui-dashboard-react/static/media/Facebook.fb04381e417f2acffad98786d4d3aca6.svg",
     "index.html": "/chakra-ui-dashboard-react/index.html",
-    "main.775ec346.css.map": "/chakra-ui-dashboard-react/static/css/main.775ec346.css.map",
-    "main.453fffa8.js.map": "/chakra-ui-dashboard-react/static/js/main.453fffa8.js.map"
+    "main.0ba4f528.css.map": "/chakra-ui-dashboard-react/static/css/main.0ba4f528.css.map",
+    "main.00c2f89e.js.map": "/chakra-ui-dashboard-react/static/js/main.00c2f89e.js.map"
   },
   "entrypoints": [
-    "static/css/main.775ec346.css",
-    "static/js/main.453fffa8.js"
+    "static/css/main.0ba4f528.css",
+    "static/js/main.00c2f89e.js"
   ]
 }
