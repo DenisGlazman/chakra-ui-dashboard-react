@@ -7,10 +7,11 @@
     border-radius: 10px;
     padding: 10px;
     width: 95%;
+    max-width: 1550px;
     justify-self: center;
     margin-top: 8%;
-    background-color: transparent; /* фон будет через ::before */
-    overflow: hidden; /* чтобы псевдоэлемент не вылезал за рамки */
+    background-color: transparent;
+    overflow: hidden;
     backdrop-filter: blur(10px);
 }
 
@@ -20,7 +21,7 @@
     top: 0; left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.7); /* белый с прозрачностью */
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     z-index: -1;
 }
@@ -63,8 +64,7 @@
 .profile-element-tabs button:hover{
     border-radius: 15px;
     border-width: 1px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Тень снизу */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s ease;
     background-color: white;
 }
-

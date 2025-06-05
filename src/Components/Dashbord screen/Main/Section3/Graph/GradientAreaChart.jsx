@@ -9,19 +9,9 @@ const GradientAreaChart = () => {
     const [data, setData] = useState([]); // Начальное значение — пустой массив
     useEffect(() => {
         fetch("http://localhost:5001/areachart")
-            .then((response) => response.json())
-            .then((parsedData) => {
-                console.log("✅ Данные:", parsedData);
-
-                if (Array.isArray(parsedData)) {
-                    setData(parsedData);
-                } else {
-                    console.error("❌ Ожидался массив, но получено:", parsedData);
-                }
-            })
-            .catch((error) => {
-                console.error("❌ Ошибка загрузки данных:", error);
-            });
+            .then((res) => res.json())
+            .then((data) => setData(data))
+            .catch((error) => console.error("Error fetching data:", error));
     }, []);
 
     return (

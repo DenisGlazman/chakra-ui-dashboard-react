@@ -4,7 +4,7 @@ import './DashboardStats.css'
 const DashboardStats = () => {
     const[stats, setStats] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5001/stats") //axios.get("https://4f16f53f-ab42-4f86-aa9e-75be15621eb6.mock.pstmn.io/stats", {
+        fetch("http://localhost:5001/stats")
             .then((res) => res.json())
             .then((data) => setStats(data))
             .catch((error) => console.error("Error fetching data:", error));

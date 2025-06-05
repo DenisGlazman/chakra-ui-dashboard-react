@@ -5,6 +5,7 @@ import Profile from "../Components/Profile screen/Profile";
 import SignIn from "../Components/Sign In Screen/SignIn";
 import SignUp from "../Components/Sign Up Screen/SignUp.jsx";
 import BillingScreen from "../Components/Billing screen/BillingScreen";
+import Documentation from "../Components/Dashbord screen/SideBar/Downlink/Documentation/Documentation.jsx";
 const router = createBrowserRouter(
     [
         {
@@ -30,6 +31,10 @@ const router = createBrowserRouter(
         {
             path: "/signup",
             element: <SignUp />
+        },
+        {
+            path: "/documentation",
+            element: <Documentation />
         }
     ]
 

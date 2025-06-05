@@ -1,9 +1,10 @@
 .section_3{
 display: flex;
     padding-top: 20px;
+    max-width: 1600px;
 
 }
-.left_side_section{
+.left_side_section_3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,4 +13,14 @@ display: flex;
     border-radius: 15px;
     width: 40%;
     margin-right: 20px;
+}
+@media (max-width: 1000px){
+    .section_3{
+        flex-direction: column;
+    }
+}
+@media (max-width: 1000px){
+    .left_side_section_3{
+        width: 100%;
+    }
 }

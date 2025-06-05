@@ -6,7 +6,7 @@ import './Section_3.css'
 const Section3 = () => {
     return (
         <div className="section_3">
-            <div className="left_side_section">
+            <div className="left_side_section_3">
                 <CustomBarChart />
                 <ActiveUsers/>
             </div>

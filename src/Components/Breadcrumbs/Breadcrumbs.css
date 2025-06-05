@@ -7,3 +7,9 @@
     font-size: 12px;
     font-weight: normal;
 }
+@media (max-width: 1160px) {
+    .breadcrumbs {
+        margin-left: 20px;
+
+    }
+}

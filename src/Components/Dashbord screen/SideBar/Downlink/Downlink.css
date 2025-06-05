@@ -1,7 +1,4 @@
-.downlink-container {
 
-
-}
 .downlink {
     background-image: url('../SideBar_Icons/BackgroundDownlink.svg');
     background-repeat: no-repeat;
@@ -17,8 +14,7 @@
     max-height: 170px;
 }
 
-
-img{
+.icon_ask img{
     margin-left: 15px;
 }
 .icon_ask h3, h4 {
@@ -26,18 +22,19 @@ img{
     justify-self: flex-start;
     align-self: center;
     color: white;
-}
-.icon_ask h3{
     font-family: 'Helvetica', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
     margin-left: 15px;
 }
-.icon_ask h4{
-    font-family: 'Helvetica', sans-serif;
-    font-size: 12px;
-    font-weight: normal;margin-left: 15px;
+.icon_ask h3{
+    font-size: 14px;
+    font-weight: bold;
 }
+
+.icon_ask h4{
+    font-size: 12px;
+    font-weight: normal;
+}
+
 .documentation{
     display: flex;
     justify-content: center;
@@ -54,7 +51,6 @@ img{
     font-weight: bold;
     font-family: 'Helvetica', sans-serif;
     background-color: white;
-
 }
 
 

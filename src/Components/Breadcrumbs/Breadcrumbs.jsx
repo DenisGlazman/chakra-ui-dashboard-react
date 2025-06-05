@@ -37,7 +37,7 @@ const Breadcrumbs = () => {
                 })}
             </div>
 
-            {/* Название текущей страницы */}
+
             <div className="breadcrumbs-title">
                 <h2>{currentPageTitle}</h2>
             </div>

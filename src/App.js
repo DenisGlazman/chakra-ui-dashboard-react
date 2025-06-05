@@ -6,6 +6,7 @@ import Dashboard from "./Components/Dashbord screen/Dashbord.jsx";
 import SignIn from "./Components/Sign In Screen/SignIn.jsx";
 import SignUp from "./Components/Sign Up Screen/SignUp.jsx";
 import BillingScreen from "./Components/Billing screen/BillingScreen.jsx";
+import Documentation from "./Components/Dashbord screen/SideBar/Downlink/Documentation/Documentation.jsx";
 
 
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/billing' element={<BillingScreen/>}/>
             <Route path='/signin' element={<SignIn/>}/>
             <Route path='/signup' element={<SignUp/>}/>
+            <Route path='/documentation' element={<Documentation/>}/>
         </Routes>
     </div>
   );

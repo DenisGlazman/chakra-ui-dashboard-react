@@ -17,59 +17,60 @@ const Project = () => {
 
     return (
         <div className={isFullWidth ? 'full-width' : 'half-width'}>
-        <div className="p-6-bg-white-rounded-lg-shadow" >
-            <h2 className="text-xl font-bold mb-4">Projects</h2>
-            <p><img alt='circle' src='/Projects icons/circle.svg'/>30 done <span>this month</span></p>
-            <div className="overflow-x-auto" >
-                <table className="w-full-text-left" >
-                    <thead>
-                    <tr className="text-xs-uppercase-text-gray-500-border-b">
-                        <th className="py-2">Companies</th>
-                        <th className="py-2">Members</th>
-                        <th className="py-2">Budget</th>
-                        <th className="py-2">Completion</th>
-                        {isFullWidth && <th className="py-2 text-center">Options</th>}
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {projects.map((project) => (
-                        <tr key={project.id} className="border-b">
-                            <td className="py-3 flex items-center gap-3">
-                                <img src={project.company.icon} alt="icon" className="pr_img" />
-                                <span>{project.company.name}</span>
-                            </td>
-                            <td className="py-3">
-                                <div className="flex-space-x-2">
-                                    {project.members.map((avatar, i) => (
-                                        <img key={i} src={avatar} alt="Member" className="w-6 h-6 rounded-full border-2 border-white" />
-                                    ))}
-                                </div>
-                            </td>
-                            <td className="py-3 text-sm text-gray-700">
-                                {project.budget ? `$${project.budget.toLocaleString()}` : "Not set"}
-                            </td>
-                            <td className="py-3">
-                                <div className="progress-wrapper">
-                                    <span className="progress-label">{project.completion}%</span>
-                                    <div className="progress-bar">
-                                        <div className="progress-fill" style={{ width: `${project.completion}%` }}></div>
-                                    </div>
-                                </div>
-                            </td>
-                            {isFullWidth && (
-                                <td className="py-3 text-center">
-                                    <button className="action-button">⋮</button>
-                                </td>
-                            )}
+            <div className="project-container">
+                <h2 className="heading">Projects</h2>
+                <p>
+                    <img alt='circle' src='/Projects icons/circle.svg' />
+                    30 done <span>this month</span>
+                </p>
+                <div className="table-wrapper">
+                    <table className="project-table">
+                        <thead>
+                        <tr className="table-header">
+                            <th className="table-cell">Companies</th>
+                            <th className="table-cell">Members</th>
+                            <th className="table-cell">Budget</th>
+                            <th className="table-cell">Completion</th>
+                            {isFullWidth && <th className="table-cell text-center">Options</th>}
                         </tr>
-                    ))}
-                    </tbody>
-
-                </table>
+                        </thead>
+                        <tbody>
+                        {projects.map((project) => (
+                            <tr key={project.id} className="table-row">
+                                <td className="table-cell project-info">
+                                    <img src={project.company.icon} alt="icon" className="project-img" />
+                                    <span>{project.company.name}</span>
+                                </td>
+                                <td className="table-cell">
+                                    <div className="avatars">
+                                        {project.members.map((avatar, i) => (
+                                            <img key={i} src={avatar} alt="Member" className="avatar" />
+                                        ))}
+                                    </div>
+                                </td>
+                                <td className="table-cell budget">
+                                    {project.budget ? `$${project.budget.toLocaleString()}` : "Not set"}
+                                </td>
+                                <td className="table-cell">
+                                    <div className="progress-wrapper">
+                                        <span className="progress-label">{project.completion}%</span>
+                                        <div className="progress-bar">
+                                            <div className="progress-fill" style={{ width: `${project.completion}%` }}></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                {isFullWidth && (
+                                    <td className="table-cell text-center">
+                                        <button className="action-button">⋮</button>
+                                    </td>
+                                )}
+                            </tr>
+                        ))}
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
-    );
-};
+)}
 
-export default Project;
+    export default Project;

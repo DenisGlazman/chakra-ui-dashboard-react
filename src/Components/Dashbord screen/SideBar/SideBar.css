@@ -1,37 +1,39 @@
-
-.side-panel{
+/* === Десктопная версия === */
+.side-panel {
     width: 13%;
     max-width: 246px;
+    height: 100vh;
+
+    position: relative;
+    z-index: 100;
+    transition: left 0.3s ease;
+    background-color: #f8f9fa
 }
-.side-panel img{
+
+.side-panel img {
     padding-top: 20px;
-
-
+    margin-left: 20px;
 }
-.dashbord-items{
+
+.dashbord-items {
     display: flex;
     flex-direction: column;
     justify-content: start;
     width: 100%;
+    background-color: #f8f9fa
 }
-.acc{
-    font-family: 'Helvetica', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    margin: 20px;
-}
-.sidebar_link{
+
+.sidebar_link {
     display: flex;
     justify-content: start;
     align-items: center;
-
-    transition: transform .2s;
-    font-style: normal ;
+    transition: transform 0.2s;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-
 }
-.sidebar_link button{
+
+.sidebar_link button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -40,103 +42,70 @@
     background-color: #f8f9fa;
     color: gray;
     font-weight: bold;
+    padding: 10px;
+    width: 100%;
 }
-.sidebar_link button:hover{
+
+.sidebar_link button:hover {
     background-color: white;
     width: 150%;
     color: black;
     font-weight: bold;
-
-
-}
-.icon {
-    transition: filter 0.3s ease-in-out;
-}
-.icon:hover{
-     /* Цвет при наведении */
-
+    border-radius: 15px;
 }
 
-.link:hover{
-
-    background-color: white;
-
-
+.sidebar_link img {
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
-h3{
+.acc {
     font-family: 'Helvetica', sans-serif;
     font-size: 12px;
     font-weight: bold;
+    margin: 20px;
+    background-color: #f8f9fa
 }
 
-/* 📱 Мобильные устройства: ширина до 767px */
-@media (max-width: 767px) {
-    .side-panel {
-        width: 60px;
-        padding: 10px 5px;
-    }
-
-    .sidebar_link button {
-        flex-direction: column;
-        justify-content: center;
-        font-size: 10px;
-        padding: 6px;
-        gap: 4px;
-    }
-
-    .sidebar_link button img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .acc {
-        display: none;
-    }
-
-    h3 {
-        font-size: 10px;
-    }
+/* === Иконка бургера (по умолчанию скрыта) === */
+.burger-icon {
+    display: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 999;
+    background-color: white;
+    border-radius: 4px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
-/* 📱 Планшеты: от 768px до 1023px */
-@media (min-width: 768px) and (max-width: 1023px) {
+/* === Мобильная адаптация === */
+@media (max-width: 1085px) {
+    .burger-icon {
+        display: block;
+    }
+
     .side-panel {
-        width: 150px;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        max-width: 260px;
+        height: 100vh;
+        background-color: white;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+        z-index: 998;
+        transition: left 0.3s ease-in-out;
     }
 
-    .sidebar_link button {
-        font-size: 13px;
-        gap: 8px;
+    .side-panel.open {
+        left: 0;
     }
 
-    .sidebar_link button img {
-        width: 24px;
-        height: 24px;
-    }
-
-    .acc {
-        font-size: 10px;
-    }
-}
-
-/* 🖥️ Десктопы: от 1024px */
-@media (min-width: 1024px) {
-    .side-panel {
-        width: 13%;
-        max-width: 246px;
-    }
-
-    .sidebar_link button {
-        font-size: 14px;
-    }
-
-    .sidebar_link button img {
-        width: 28px;
-        height: 28px;
-    }
-
-    .acc {
-        font-size: 12px;
+    .sidebar_link button:hover {
+        width: 100%; /* не вылезает за пределы */
     }
 }

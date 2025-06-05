@@ -1,12 +1,10 @@
 .cards{
     display: flex;
-    height: 120px;
-    width: 100%;
     gap: 20px;
     padding: 20px;
     background-color: #f8f9fa;
     max-width: 1600px;
-    max-height: 80px;
+
 }
 .card{
     display: flex;
@@ -40,3 +38,29 @@
     margin-left: 5px;
 
 }
+@media (max-width: 576px){
+    .cards{
+        flex-direction: column;
+    }}
+
+@media (max-width: 576px) {
+    .card{
+        flex-direction: row;
+    }}
+
+
+@media ( min-width: 576px) and (max-width: 1250px){
+    .cards{
+        flex-direction: row;
+    }
+}
+
+@media  ( min-width: 576px) and (max-width: 1250px){
+    .card{
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+        padding-right: 0;
+        padding-left: 0;
+
+    }}
