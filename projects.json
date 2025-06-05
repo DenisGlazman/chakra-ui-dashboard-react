@@ -3,7 +3,7 @@
     "id": 1,
     "company": {"name":"Chakra Soft UI Version",
       "icon":"Projects_icons/Adobe_XD_CC.svg"},
-    "members": ["/images/Avatar 1.png", "/images/Avatar 2.png", "/images/Avatar 3.png", "/images/Avatar 4.png", "/images/Avatar 5.png"],
+    "members": ["images/Avatar1.png", "images/Avatar2.png", "images/Avatar3.png", "images/Avatar4.png", "images/Avatar5.png"],
     "budget": 14000,
     "completion": 60
   },
