@@ -4,52 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Home page adapted for mobile">
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/ActiveUserCard/ActiveUserCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/ActiveUserCard/ActiveUserCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Documentation/Documentation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Documentation/Documentation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Breadcrumbs/Breadcrumbs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Breadcrumbs/Breadcrumbs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Breadcrumbs/Breadcrumbs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Breadcrumbs/Breadcrumbs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Dashbord.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/Section1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/Section1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section_2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/ActiveUsers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/ActiveUsers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/ActiveUsers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/ActiveUsers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/CustomBarChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/CustomBarChart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section_3.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Section_3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section4.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section_4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Section_4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Downlink.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Downlink.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Downlink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/Downlink/Downlink.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/ProfileInformation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/ProfileInformation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile element/ProfileElement.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile element/ProfileElement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/ProfileMain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sign Up Screen/SignUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routes.js" afterDir="false" />
-    </list>
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Home page adapted for mobile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +63,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
     "npm.npm start.executor": "Run",
     "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
@@ -130,7 +86,7 @@
       <recent name="$PROJECT_DIR$/public/images/Orders Overview Icons" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -138,6 +94,16 @@
       <method v="2" />
     </configuration>
     <configuration name="data.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/data.js" working-dir="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -152,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="Node.js.data.js" />
         <item itemvalue="Node.js.SideBar.jsx" />
       </list>
@@ -178,7 +145,7 @@
       <workItem from="1747325638846" duration="71000" />
       <workItem from="1747325721051" duration="17706000" />
       <workItem from="1747904712870" duration="63803000" />
-      <workItem from="1748458524656" duration="154725000" />
+      <workItem from="1748458524656" duration="155491000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -332,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748956362512</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Home page adapted for mobile">
+      <option name="closed" value="true" />
+      <created>1749131060451</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1749131060451</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
