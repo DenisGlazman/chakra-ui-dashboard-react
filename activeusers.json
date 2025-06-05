@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Users",
+    "value": "32,984",
+    "progress": 85,
+    "icon": "Active_users_icons/users.svg"
+  },
+  {
+    "id": 2,
+    "title": "Clicks",
+    "value": "2,42m",
+    "progress": 95,
+    "icon": "Active_users_icons/clicks.svg"
+  },
+  {
+    "id": 3,
+    "title": "Sales",
+    "value": "2,400$",
+    "progress": 40,
+    "icon": "Active_users_icons/sales.svg"
+  },
+  {
+    "id": 4,
+    "title": "Items",
+    "value": "320",
+    "progress": 60,
+    "icon": "Active_users_icons/items.svg"
+  }
+
+]
