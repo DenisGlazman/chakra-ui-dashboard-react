@@ -1,0 +1,59 @@
+[
+  {
+    "avatar": "Authors_table_photos/Image.jpg",
+    "name": "Esthera Jackson",
+    "email": "esthera@simmmp1e.com",
+    "role": "Manager",
+    "department": "Organization",
+    "status": "Online",
+    "employedDate": "14/06/21"
+  },
+  {
+    "avatar": "Authors_table_photos/Image1.jpg",
+    "name": "Alexa Liras",
+    "email": "alexa@simmmp1e.com",
+    "role": "Programmer",
+    "department": "Developer",
+    "status": "Offline",
+    "employedDate": "14/06/21"
+  },
+  {
+    "avatar": "Authors_table_photos/Image2.jpg",
+    "name": "Laurent Michael",
+    "email": "laurent@simmmp1e.com",
+    "role": "Executive",
+    "department": "Projects",
+    "status": "Online",
+    "employedDate": "14/06/21"
+  }
+,
+  {
+    "avatar": "Authors_table_photos/Image3.jpg",
+    "name": "Laurent Michael",
+    "email": "laurent@simmmp1e.com",
+    "role": "Executive",
+    "department": "Projects",
+    "status": "Online",
+    "employedDate": "14/06/21"
+  }
+,
+  {
+    "avatar": "Authors_table_photos/Image4.jpg",
+    "name": "Laurent Michael",
+    "email": "laurent@simmmp1e.com",
+    "role": "Executive",
+    "department": "Projects",
+    "status": "Online",
+    "employedDate": "14/06/21"
+  }
+,
+  {
+    "avatar": "Authors_table_photos/Image5.jpg",
+    "name": "Laurent Michael",
+    "email": "laurent@simmmp1e.com",
+    "role": "Executive",
+    "department": "Projects",
+    "status": "Online",
+    "employedDate": "14/06/21"
+  }
+]
