@@ -11,7 +11,7 @@
     "id": 2,
     "company":{"name": "Add Progress Track",
       "icon": "Projects_icons/Atlassian.svg"},
-    "members": ["/images/Avatar 1.png", "/images/Avatar 2.png"],
+    "members": ["images/Avatar1.png", "images/Avatar2.png"],
     "budget": 3000,
     "completion": 10
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "company":{"name":"Fix Platform Errors",
       "icon": "Projects_icons/Slack.svg"},
-    "members": ["/images/Avatar 3.png", "/images/Avatar 4.png"],
+    "members": ["images/Avatar3.png", "images/Avatar4.png"],
     "budget": null,
     "completion": 100
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "company":{"name": "Launch our Mobile App",
       "icon": "Projects_icons/Spotify.svg"},
-    "members": ["/images/Avatar 1.png", "/images/Avatar 2.png", "/images/Avatar 3.png", "/images/Avatar 4.png", "/images/Avatar 5.png"],
+    "members": ["images/Avatar1.png", "images/Avatar2.png", "images/Avatar3.png", "images/Avatar4.png", "images/Avatar5.png"],
     "budget": 14000,
     "completion": 100
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "company":{"name": "Add the New Pricing Page",
       "icon": "Projects_icons/Jira.svg"},
-    "members": ["/images/Avatar 1.png", "/images/Avatar 2.png"],
+    "members": ["images/Avatar1.png", "images/Avatar2.png"],
     "budget": 3000,
     "completion": 25
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "company":{"name": "Redesign New Online Shop",
       "icon": "Projects_icons/Invision.svg"},
-    "members": ["/images/Avatar 3.png", "/images/Avatar 4.png"],
+    "members": ["images/Avatar3.png", "images/Avatar4.png"],
     "budget": null,
     "completion": 40
   }
