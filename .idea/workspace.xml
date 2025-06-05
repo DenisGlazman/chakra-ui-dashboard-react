@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Home page adapted for mobile" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="JSX File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section2/Section2.jsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tvrzhjoigDYHhE61Y8aKy7i4jq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.App.js.executor": "Run",
+    "Node.js.Section3.jsx.executor": "Run",
+    "Node.js.SideBar.jsx.executor": "Run",
+    "Node.js.SignUp.jsx.executor": "Run",
+    "Node.js.data.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/public/Profile page images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.npm start.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Profile page images" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons" />
+      <recent name="$PROJECT_DIR$/src/Components/Sign In Screen/images" />
+      <recent name="$PROJECT_DIR$/src/Components/Sign Up Screen/images" />
+      <recent name="$PROJECT_DIR$/public/Billing page images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Billing screen/Billing page images" />
+      <recent name="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Salary" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users" />
+      <recent name="$PROJECT_DIR$/public/images/Orders Overview Icons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="SideBar.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar/SideBar.jsx" working-dir="$PROJECT_DIR$/src/Components/Dashbord screen/SideBar">
+      <method v="2" />
+    </configuration>
+    <configuration name="data.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/data.js" working-dir="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="Node.js.data.js" />
+        <item itemvalue="Node.js.SideBar.jsx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="" />
+      <created>1741243653093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741243653093</updated>
+      <workItem from="1741243654191" duration="169611000" />
+      <workItem from="1742124894348" duration="97986000" />
+      <workItem from="1745763409723" duration="40106000" />
+      <workItem from="1747325638846" duration="71000" />
+      <workItem from="1747325721051" duration="17706000" />
+      <workItem from="1747904712870" duration="63803000" />
+      <workItem from="1748458524656" duration="155491000" />
+    </task>
+    <task id="LOCAL-00001" summary="second">
+      <option name="closed" value="true" />
+      <created>1741256739746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741256739746</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second">
+      <option name="closed" value="true" />
+      <created>1741256976259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741256976259</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sidebar added">
+      <option name="closed" value="true" />
+      <created>1741370230199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741370230199</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" added header jsx">
+      <option name="closed" value="true" />
+      <created>1741469808798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741469808798</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactoring,new jsx elements added">
+      <option name="closed" value="true" />
+      <created>1741545222438</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741545222438</updated>
+    </task>
+    <task id="LOCAL-00006" summary="routing for side bar added">
+      <option name="closed" value="true" />
+      <created>1741623612722</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741623612722</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Postman's moks added">
+      <option name="closed" value="true" />
+      <created>1743427134411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743427134411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Local server added">
+      <option name="closed" value="true" />
+      <created>1743604569860</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743604569860</updated>
+    </task>
+    <task id="LOCAL-00009" summary="icons">
+      <option name="closed" value="true" />
+      <created>1746445896495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746445896495</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Billing and Tables screens have been filled">
+      <option name="closed" value="true" />
+      <created>1748601627107</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748601627107</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Billing and Tables screens have been filled">
+      <option name="closed" value="true" />
+      <created>1748602325437</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748602325437</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Billing and Tables screens have been filled">
+      <option name="closed" value="true" />
+      <created>1748602510160</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1748602510160</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Sign In screen has been filled">
+      <option name="closed" value="true" />
+      <created>1748709826230</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748709826230</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Sign In screen has been filled">
+      <option name="closed" value="true" />
+      <created>1748710100362</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748710100362</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Sign Up screen has been filled">
+      <option name="closed" value="true" />
+      <created>1748787464699</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748787464699</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Sign Up screen has been filled">
+      <option name="closed" value="true" />
+      <created>1748792752256</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1748792752256</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1748892411644</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748892411644</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1748892623312</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1748892623312</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Commit before @media">
+      <option name="closed" value="true" />
+      <created>1748956362512</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1748956362512</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Home page adapted for mobile">
+      <option name="closed" value="true" />
+      <created>1749131060451</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1749131060451</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sidebar added" />
+    <MESSAGE value="header jsx added" />
+    <MESSAGE value=" added header jsx" />
+    <MESSAGE value="refactoring,new jsx elements added" />
+    <MESSAGE value="routing for side bar added" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="Postman's moks added" />
+    <MESSAGE value="Local server added" />
+    <MESSAGE value="icons" />
+    <MESSAGE value="second" />
+    <MESSAGE value="Billing and Tables screens have been filled" />
+    <MESSAGE value="Sign In screen has been filled" />
+    <MESSAGE value="Sign Up screen has been filled" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Commit before @media" />
+    <MESSAGE value="Home page adapted for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page adapted for mobile" />
+  </component>
+</project>
