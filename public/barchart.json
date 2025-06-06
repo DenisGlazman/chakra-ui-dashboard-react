@@ -1,0 +1,12 @@
+[
+  { "name": "A", "value": 300},
+  { "name": "B", "value": 250},
+  { "name": "C", "value": 150},
+  { "name": "D", "value": 400},
+  { "name": "E", "value": 500},
+  { "name": "F", "value": 350},
+  { "name": "G", "value": 450},
+  { "name": "H", "value": 200},
+  { "name": "I", "value": 300},
+  { "name": "J", "value": 100}
+]

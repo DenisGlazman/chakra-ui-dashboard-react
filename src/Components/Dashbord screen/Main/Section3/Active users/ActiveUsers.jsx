@@ -10,18 +10,18 @@ const ActiveUsers = () => {
     const [meta, setMeta] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:5001/activeusers")
+        fetch("./activeusers.json")
             .then((res) => res.json())
             .then((data) => {
-                console.log("users", data);
+
                 setCards(data);
             })
             .catch((err) => console.error("Users error:", err.message));
 
-        fetch("http://localhost:5001/activeusersMeta")
+        fetch("./activeusersMeta.json")
             .then((res) => res.json())
             .then((data) => {
-                console.log("meta", data);
+
                 setMeta(data);
             })
             .catch((err) => console.error("Meta error:", err.message));

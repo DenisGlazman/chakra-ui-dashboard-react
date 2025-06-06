@@ -4,7 +4,113 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="Home page adapted for mobile" />
+    <list default="true" id="935b9418-be88-404c-9180-51d539eddfdb" name="Changes" comment="First build">
+      <change afterPath="$PROJECT_DIR$/public/Billing_page_images/EDIT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Projects_icons/Adobe_XD_CC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/activeusers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/activeusersMeta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/areachart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/authors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/barchart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/billingInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/conversations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/invoices.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/platformSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/profile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/profileprojects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stats.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/transactions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing_page_images/CreditCardBackground.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Active users icons/background_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Active_users_icons/background_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Active users icons/clicks.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Active_users_icons/clicks.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Active users icons/items.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Active_users_icons/items.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Active users icons/sales.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Active_users_icons/sales.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Active users icons/users.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Active_users_icons/users.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Authors table photos/Image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Authors_table_photos/Image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Authors table photos/Image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Authors_table_photos/Image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Authors table photos/Image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Authors_table_photos/Image2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Authors table photos/Image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Authors_table_photos/Image3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Authors table photos/Image4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Authors_table_photos/Image4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Authors table photos/Image5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Authors_table_photos/Image5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/Circles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/Circles.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/Delete (1).svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/Delete (1).svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/Delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/Delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/Edit .svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/Edit .svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/Mastercard Icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/Mastercard_Icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/PDF.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/PDF.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/PayPalIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/PayPalIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/SalaryIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/SalaryIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/Visa Icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/Visa_Icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Billing page images/text.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/text.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Orders Overview Icons/Basket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Orders_Overview_Icons/Basket.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Orders Overview Icons/CSS.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Orders_Overview_Icons/CSS.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Orders Overview Icons/Card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Orders_Overview_Icons/Card.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Orders Overview Icons/Design changes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Orders_Overview_Icons/Design_changes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Orders Overview Icons/Dropbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Orders_Overview_Icons/Dropbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/MainImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/MainImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/MainImageIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/MainImageIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/ProfileHeaderBackground.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/ProfileHeaderBackground.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/minimalism.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/minimalism.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/modern.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/modern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/overview_tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/overview_tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/projects_tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/projects_tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/scandinavian.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/scandinavian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Profile page images/teams_tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Profile_page_images/teams_tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Projects icons/Adobe_XD_CC.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Orders_Overview_Icons/Adobe_XD_CC.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Projects icons/Atlassian.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Projects_icons/Atlassian.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Projects icons/Invision.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Projects_icons/Invision.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Projects icons/Jira.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Projects_icons/Jira.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Projects icons/Slack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Projects_icons/Slack.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Projects icons/Spotify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Projects_icons/Spotify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Projects icons/circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Projects_icons/circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Section 1 icons/Basket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Section_1_icons/Basket.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Section 1 icons/Wallet&amp;Back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Section_1_icons/Wallet&amp;Back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Section 1 icons/newClients.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Section_1_icons/newClients.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Section 1 icons/rW.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Section_1_icons/rW.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Section 1 icons/sales.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Section_1_icons/sales.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Section 1 icons/users.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Section_1_icons/users.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Section 1 icons/wallet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Section_1_icons/wallet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Section 1 icons/walletB.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Section_1_icons/walletB.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Avatar 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Avatar1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Avatar 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Avatar2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Avatar 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Avatar3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Avatar 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Avatar4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Avatar 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Avatar5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Billing Information/Billing_Information.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Billing Information/Billing_Information.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Billing page images/CreditCardBackground.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Billing_page_images/CreditCardBackground.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/CreditCard/CreditCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/CreditCard/CreditCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/Paypal/Paypal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/Paypal/Paypal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/Salary/Salary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Card Display/Salary/Salary.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Invoices.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Invoices.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Payment Method/Entry fields/EntryFields.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Payment Method/Entry fields/EntryFields.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Billing screen/Your Transactions/YourTransaction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Billing screen/Your Transactions/YourTransaction.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section1/DashboardStats.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/ActiveUsers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users/ActiveUsers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/CustomBarChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/CustomBarChart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Graph/GradientAreaChart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Orders overview/OrdersOverview.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section4/Projects/Project.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Extended header/ProfileHeader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Conversations/Conversations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Platform settings/PlatformSettings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile Information/Profile_Information.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile element/ProfileElement.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile main/Profile element/ProfileElement.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/NewProjectCard/NewProjectCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/NewProjectCard/NewProjectCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProfileProjects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile screen/Profile projects/ProjectCard/ProjectCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/AuthorsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tables screen/Authors_table/AuthorsTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +159,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/public/Profile page images",
+    "last_opened_file_path": "/Users/user/Desktop/react_projects/chakra-ui-dashboard-react/public/Billing_page_images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -72,16 +178,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Billing_page_images" />
+      <recent name="$PROJECT_DIR$/build" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/Orders_Overview_Icons" />
       <recent name="$PROJECT_DIR$/public/Profile page images" />
-      <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Header/Header_icons" />
-      <recent name="$PROJECT_DIR$/src/Components/Sign In Screen/images" />
-      <recent name="$PROJECT_DIR$/src/Components/Sign Up Screen/images" />
-      <recent name="$PROJECT_DIR$/public/Billing page images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Components/Billing screen/Billing page images" />
       <recent name="$PROJECT_DIR$/src/Components/Billing screen/Invoices/Salary" />
-      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Components/Dashbord screen/Main/Section3/Active users" />
       <recent name="$PROJECT_DIR$/public/images/Orders Overview Icons" />
     </key>
@@ -145,7 +251,7 @@
       <workItem from="1747325638846" duration="71000" />
       <workItem from="1747325721051" duration="17706000" />
       <workItem from="1747904712870" duration="63803000" />
-      <workItem from="1748458524656" duration="155491000" />
+      <workItem from="1748458524656" duration="184092000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -307,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749131060451</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="First build">
+      <option name="closed" value="true" />
+      <created>1749133626661</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1749133626661</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +444,7 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Commit before @media" />
     <MESSAGE value="Home page adapted for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page adapted for mobile" />
+    <MESSAGE value="First build" />
+    <option name="LAST_COMMIT_MESSAGE" value="First build" />
   </component>
 </project>

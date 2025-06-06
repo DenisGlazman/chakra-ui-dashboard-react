@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./PlatformSettings.css";
 
+
 const PlatformSettings = () => {
     const [settings, setSettings] = useState({
         account: {
@@ -16,12 +17,12 @@ const PlatformSettings = () => {
     });
 
     useEffect(() => {
-        // Загрузка данных из db.json, эмулируем пока локально
-        fetch("http://localhost:3000/platformSettings")
+        fetch('./platformSettings.json')
             .then((res) => res.json())
             .then((data) => setSettings(data))
             .catch((err) => console.error("Fetch error:", err));
     }, []);
+
 
     const toggleSetting = (section, key) => {
         setSettings((prev) => ({

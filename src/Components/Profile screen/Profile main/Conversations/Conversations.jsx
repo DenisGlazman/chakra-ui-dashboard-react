@@ -5,9 +5,10 @@ export default function Conversations() {
     const [messages, setMessages] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5001/conversations")
-            .then(res => res.json())
-            .then(setMessages);
+        fetch('./conversations.json')
+            .then((res) => res.json())
+            .then((data) => setMessages(data))
+            .catch((error) => console.error("Error fetching data:", error));
     }, []);
 
     return (

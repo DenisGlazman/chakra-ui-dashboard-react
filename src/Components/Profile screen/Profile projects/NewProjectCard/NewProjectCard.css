@@ -1,7 +1,17 @@
-.new-project-card{
-    max-width: 370px;
-    width: 23%;
-
+.new-project-card {
+    width: 382px;
+    max-width:  382px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8392ab;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
 }
 .new-project-card p{
     font-size: 18px;

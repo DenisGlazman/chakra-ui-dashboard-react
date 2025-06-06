@@ -6,7 +6,7 @@ import './CustomBarChart.css'
 const CustomBarChart = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5001/barchart")
+        fetch("./barchart.json")
             .then((res) => res.json())
             .then((data) => setData(data))
             .catch((error) => console.error("Error fetching data:", error));

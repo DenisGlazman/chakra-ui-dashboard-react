@@ -8,7 +8,7 @@ import './GradientAreaChart.css'
 const GradientAreaChart = () => {
     const [data, setData] = useState([]); // Начальное значение — пустой массив
     useEffect(() => {
-        fetch("http://localhost:5001/areachart")
+        fetch("./areachart.json")
             .then((res) => res.json())
             .then((data) => setData(data))
             .catch((error) => console.error("Error fetching data:", error));

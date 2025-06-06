@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Esthera Jackson",
+    "message": "Hi! I need more informations...",
+    "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Esthera Jackson",
+    "message": "Awesome work, can you change...",
+    "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Esthera Jackson",
+    "message": "Have a great afternoon...",
+    "avatar": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Esthera Jackson",
+    "message": "About files I can...",
+    "avatar": "https://randomuser.me/api/portraits/men/4.jpg"
+  }
+]

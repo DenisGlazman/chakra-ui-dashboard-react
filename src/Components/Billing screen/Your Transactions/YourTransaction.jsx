@@ -5,7 +5,7 @@ const YourTransactions = () => {
     const [transactions, setTransactions] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5001/transactions') // убедись, что json-server запущен
+        fetch('./transactions.json') // убедись, что json-server запущен
             .then(res => res.json())
             .then(data => setTransactions(data));
     }, []);

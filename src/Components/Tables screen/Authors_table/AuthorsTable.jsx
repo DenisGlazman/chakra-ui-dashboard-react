@@ -10,7 +10,7 @@ const AuthorsTable = () => {
         const fetchAuthors = async () => {
             setLoading(true);
             try {
-                const response = await fetch("http://localhost:5001/authors"); // ⚠️ Подставь актуальный эндпоинт
+                const response = await fetch("./authors.json"); // ⚠️ Подставь актуальный эндпоинт
                 const data = await response.json();
                 setAuthors(data);
             } catch (error) {

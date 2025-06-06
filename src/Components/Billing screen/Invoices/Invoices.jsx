@@ -5,7 +5,7 @@ export default function Invoices() {
     const [invoices, setInvoices] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5001/invoices")
+        fetch("./invoices.json")
             .then((res) => res.json())
             .then(setInvoices);
     }, []);
@@ -25,7 +25,7 @@ export default function Invoices() {
                             <div className='invoices-date'>{inv.date}</div>
                             <div className='invoices-number' >#{inv.number}</div>
                         </div>
-                        <div className='invoices-amount'>${inv.amount} <img src='/Billing page images/text.svg' alt='text'/><img src='/Billing page images/PDF.svg' alt='pdf'/></div>
+                        <div className='invoices-amount'>${inv.amount} <img src='Billing_page_images/text.svg' alt='text'/><img src='Billing_page_images/PDF.svg' alt='pdf'/></div>
 
                     </div>
                 ))}

@@ -4,12 +4,12 @@ import {useLocation} from "react-router-dom";
 const Project = () => {
     const location = useLocation();
 
-    const isFullWidth = location.pathname === '/tables'; // например, только на этой странице
+    const isFullWidth = location.pathname === '/tables';
 
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5001/projects") // https://4f16f53f-ab42-4f86-aa9e-75be15621eb6.mock.pstmn.io/projects замените на ваш реальный API
+        fetch("./projects.json")
             .then((res) => res.json())
             .then((data) => setProjects(data))
             .catch((error) => console.error("Error fetching data:", error));
@@ -20,7 +20,7 @@ const Project = () => {
             <div className="project-container">
                 <h2 className="heading">Projects</h2>
                 <p>
-                    <img alt='circle' src='/Projects icons/circle.svg' />
+                    <img alt='circle' src='Projects_icons/circle.svg' />
                     30 done <span>this month</span>
                 </p>
                 <div className="table-wrapper">

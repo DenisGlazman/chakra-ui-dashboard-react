@@ -4,7 +4,7 @@ import './DashboardStats.css'
 const DashboardStats = () => {
     const[stats, setStats] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5001/stats")
+        fetch('./stats.json')
             .then((res) => res.json())
             .then((data) => setStats(data))
             .catch((error) => console.error("Error fetching data:", error));

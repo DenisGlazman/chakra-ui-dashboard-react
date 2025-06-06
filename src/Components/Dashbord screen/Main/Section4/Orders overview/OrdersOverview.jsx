@@ -5,7 +5,7 @@ const OrdersOverview = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5001/orders")
+        fetch("./orders.json")
             .then((res) => res.json())
             .then((data) => setOrders(data))
             .catch((error) => console.error("Error fetching data:", error));

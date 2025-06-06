@@ -1,0 +1,44 @@
+[
+  {
+    "dayLabel": "NEWEST",
+    "name": "Netflix",
+    "date": "27 March 2020, at 12:30 PM",
+    "amount": "-$2500",
+    "status": "down"
+  },
+  {
+    "dayLabel": "NEWEST",
+    "name": "Apple",
+    "date": "27 March 2020, at 12:30 PM",
+    "amount": "+$2500",
+    "status": "up"
+  },
+  {
+    "dayLabel": "YESTERDAY",
+    "name": "Stripe",
+    "date": "26 March 2020, at 13:45 PM",
+    "amount": "+$800",
+    "status": "up"
+  },
+  {
+    "dayLabel": "YESTERDAY",
+    "name": "HubSpot",
+    "date": "26 March 2020, at 12:30 PM",
+    "amount": "+$1700",
+    "status": "up"
+  },
+  {
+    "dayLabel": "YESTERDAY",
+    "name": "Webflow",
+    "date": "26 March 2020, at 05:00 AM",
+    "amount": "Pending",
+    "status": "pending"
+  },
+  {
+    "dayLabel": "YESTERDAY",
+    "name": "Microsoft",
+    "date": "25 March 2020, at 16:30 PM",
+    "amount": "-$987",
+    "status": "down"
+  }
+]

@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("../../Billing page images/CreditCardBackground.svg");
+    background-image: url("public/Billing_page_images/CreditCardBackground.svg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

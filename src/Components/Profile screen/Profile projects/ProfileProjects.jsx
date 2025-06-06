@@ -8,7 +8,7 @@ const ProfileProjects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5001/profileprojects') // db.json
+        fetch("./profileprojects.json") // db.json
             .then(res => res.json())
             .then(data => setProjects(data))
             .catch(err => console.error(err));

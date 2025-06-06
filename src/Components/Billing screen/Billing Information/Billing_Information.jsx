@@ -6,7 +6,7 @@ const BillingInformation = () => {
     const [billing, setBilling] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5001/billingInfo')
+        fetch('./billingInfo.json')
             .then(res => res.json())
             .then(data => setBilling(data));
     }, []);
@@ -21,10 +21,10 @@ const BillingInformation = () => {
                             <div className="billing-info-header">
                                 <p className="billing-name">{item.name}</p>
                                 <div className="billing-actions">
-                                    <button className="delite-btn"><img src='/Billing page images/Delete.svg' alt='delete'/></button>
+                                    <button className="delite-btn"><img src='Billing_page_images/Delete.svg' alt='delete'/></button>
                                     <button className="edit-btn">
-                                        <img src='/Billing page images/Edit .svg' alt='edit'/>
-                                        <img src='/Billing page images/EDIT.svg' alt='edit' className='edit-icon'/>
+                                        <img src='Billing_page_images/Edit .svg' alt='edit'/>
+                                        <img src='Billing_page_images/EDIT.svg' alt='edit' className='edit-icon'/>
                                     </button>
                                 </div>
 
