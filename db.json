@@ -25,17 +25,17 @@
     { "name": "J", "value": 100}
   ],
 
-, "platformSettings":[ {
+, "platformSettings": {
     "account": {
       "follow": true,
       "answer": false,
       "mention": true
-    }],
-    "application":[ {
+    },
+    "application": {
       "launches": false,
       "updates": false,
       "newsletter": true
-    }]
+    }
 
 
 

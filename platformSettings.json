@@ -1,0 +1,11 @@
+{
+  "account": {
+    "follow": true,
+    "answer": false,
+    "mention": true
+  },
+  "application": {
+    "launches": false,
+    "updates": false,
+    "newsletter": true
+  }}
