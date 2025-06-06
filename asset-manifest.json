@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chakra-ui-dashboard-react/static/css/main.757e881c.css",
+    "main.css": "/chakra-ui-dashboard-react/static/css/main.906acea7.css",
     "main.js": "/chakra-ui-dashboard-react/static/js/main.0e977c07.js",
     "static/media/CreditCardBackground.svg": "/chakra-ui-dashboard-react/static/media/CreditCardBackground.c0b5c88e8adf36f73fcd.svg",
     "static/media/SignUpBackground.png": "/chakra-ui-dashboard-react/static/media/SignUpBackground.9528305b434f6c3be8a0.png",
@@ -29,11 +29,11 @@
     "static/media/BackgroundDownlink.svg": "/chakra-ui-dashboard-react/static/media/BackgroundDownlink.1423e514384627412eef.svg",
     "static/media/Facebook.svg": "/chakra-ui-dashboard-react/static/media/Facebook.fb04381e417f2acffad98786d4d3aca6.svg",
     "index.html": "/chakra-ui-dashboard-react/index.html",
-    "main.757e881c.css.map": "/chakra-ui-dashboard-react/static/css/main.757e881c.css.map",
+    "main.906acea7.css.map": "/chakra-ui-dashboard-react/static/css/main.906acea7.css.map",
     "main.0e977c07.js.map": "/chakra-ui-dashboard-react/static/js/main.0e977c07.js.map"
   },
   "entrypoints": [
-    "static/css/main.757e881c.css",
+    "static/css/main.906acea7.css",
     "static/js/main.0e977c07.js"
   ]
 }
