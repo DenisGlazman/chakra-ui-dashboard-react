@@ -1,0 +1,14 @@
+[
+  {"name": "Jan", "value1": 180, "value2": 500},
+  {"name": "Feb", "value1": 400, "value2": 250},
+  {"name": "Mar", "value1": 300, "value2": 200},
+  {"name": "Apr", "value1": 350, "value2": 180},
+  {"name": "May", "value1": 450, "value2": 220},
+  {"name": "Jun", "value1": 500, "value2": 280},
+  {"name": "Jul", "value1": 420, "value2": 230},
+  {"name": "Aug", "value1": 380, "value2": 200},
+  {"name": "Sep", "value1": 410, "value2": 210},
+  {"name": "Oct", "value1": 350, "value2": 180},
+  {"name": "Nov", "value1": 470, "value2": 250},
+  {"name": "Dec", "value1": 490, "value2": 270}
+]
